@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>PEREDA: HOME</title>
+
+<style type="text/css" media="screen">
+Body { background-color: #101E14; height:auto;}
+#MainBody { position:relative; margin: 0 auto; height:960px; width:960px; background-color: #ECE9DA; background-image:url(../rsrc/fondo-960x319.jpg); background-repeat:no-repeat; z-index:1;}
+#MainContent { width:960px; height:871px;  z-index:100; position:relative; margin-top:37px;}
+#Menu { width:196px; height:480px; position:relative; z-index:100; margin-left:33px; top:37px; font-family: 'berling'; }
+#Menures { width:196px; height:600px; background-color: #B5B8B4; font-family: 'berling'; float:left; }
+#Logo { width:196px; height:128px; float:left; background-image:url(../rsrc/logo-pereda.png); z-index:100; margin-bottom:25px;}
+#Content { width:695px; height:871px; background-color:#FFF; z-index:100; position:relative; left:235px; top:-443px;}
+li a:link { text-decoration:none;  color:#FFF;}
+li a:hover { text-decoration: underline; color:#FFF;}
+li  a:visited { text-decoration:none; color:#FFF;}
+li { list-style: none; color:#FFF;}
+li.vde { width:165px; height:24px; background-color:#005221; padding-left:31px; padding-top:4px; margin-bottom:2px; float:left;}
+li.vde2 { width:165px; height:24px; background-color:#005221; padding-left:31px; padding-top:4px; float:left;}
+li.grs { width:165px; height:24px; padding-left:31px; padding-top:4px; margin-bottom:2px; float:left;}
+li.prd {width:165px; height:24px; background-color: #5E8F6B; padding-left:31px; padding-top:4px; float:left;}
+li.prd2 {width:165px; height:24px; background-color: #5E8F6B; padding-left:31px; padding-top:4px;margin-bottom:2px; float:left;}
+</style>
+<script type="text/javascript" src="../rsrc/js/most.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			var sudoSlider = $("#slider").sudoSlider({
+				numeric:true,
+				continuous:true,
+				auto:true,
+				pause: 8000
+			});
+		});	
+	</script>
+</head>
+<body>
+<div id="MainBody">
+ <div id="MainContent">
+  	 <div id="Menu">
+   	  <div id="Logo"></div><!--end logo-->
+   	  <li class="vde"><a href="../home/index.html">Home</a></li>
+	  <li class="vde"><a href="../empr/index.html">Empresa</a></li>
+	  <li class="vde" id="pr"><a href="#" onclick="oculta('1');">Productos</a></li>
+	  <li class="prd" id="prd" style="display:none;"><a href="../produ/index.html">Girasol Confitero</a></li>
+	  <li class="prd" id="prd2" style="display:none;"><a href="../produ/arve.html">Arvejas</a></li>
+	  <li class="prd2" id="prd3" style="display:none;"><a href="../produ/pop.html">Pop-Corn</a></li>
+	  <li class="vde2"><a href="../expo/index.html">Exportaci&oacute;n</a></li>
+  	<div id="Menures">
+	 <li class="grs"><a href="../lnkn/index.html">Link de inter&eacute;s</a></li>
+	 <li class="grs"><a href="../galf/index.html">Galer&iacute;a de fotos</a></li>
+	 <li class="grs"><a href="../cntc/index.html">Contacto</a></li>
+	</div><!--end Menures-->
+   </div><!--end Menu-->
+     <div id="Content">
+	 <div id="container">
+  	  <div style="position:relative;">
+	    <div id="slider">
+		  <ul>				
+			<li><a href="../producto/index.php"><img src="../rsrc/slide-1.jpg" alt="Pereda 1"/></a></li>
+			<li><a href="../producto/vtas.php"><img src="../rsrc/slide-2.jpg" alt="Pereda 2"/></a></li>
+			<li><a href="../producto/specs.php"><img src="../rsrc/slide-3.jpg" alt="Pereda 3"/></a></li>		
+		  </ul>
+		</div><!--end slider-->
+	   </div><!--end pos-->
+     </div><!--end container-->
+	 </div>
+ </div><!--end Maincontent-->
+</div><!--end Mainbody-->
+</body>
+</html>
