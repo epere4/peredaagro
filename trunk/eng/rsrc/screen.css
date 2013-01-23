@@ -80,7 +80,7 @@ Body { background: #062307 url('bg-main995e.gif') center repeat-y;}
 #titu {width:600px; height:30px; position:relative; top: 10px; left:28px;}
 #titus {width:620px; height:30px; position:relative; top: 35px; left:28px; margin-bottom:60px;}
 
-#engl {width:85px; height:20px; position:relative; top: -1px; left:875px; color:#7E8378; font:"Trebuchet MS"; font-weight:normal; color:#7E8378; font-size: 12px;}
+#engl {width:85px; height:20px; position:relative; top: -1px; left:875px; color:#7E8378; font:"Trebuchet MS"; font-weight:normal; color:#7E8378; font-size: 20px;}
 #engl a {font-weight:normal; color:#7E8378;}
 #engl a:hover {font-weight:normal; color:#7E8378; text-decoration:underline;}
 #Conten { width:695px; height: 861px; background-color:#FFF; z-index:100; position:inherit; float:left; left:233px; margin-top:-480px; padding-top:9px;}
