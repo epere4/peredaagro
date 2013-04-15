@@ -1,0 +1,36 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Radley);
+
+p {color: #101E14; font-size:12px; line-height:14px; font-family: "Trebuchet MS";}
+.dest {color: #005221; font-size:12px; line-height:14px; font-family: "Trebuchet MS";}
+h1{ color: #005221; font-size:30px; font-family: 'Radley', serif; line-height:32px;}
+h2{font-family: 'berling';}
+h3{font-family: "Trebuchet MS"; font-size:11px; color: #7E8378; font-weight:normal;}
+
+li a:link { text-decoration:none;  color:#FFF; font-weight:normal; font-size:14px;}
+li a:hover { text-decoration: none; color:#FFF; font-weight:normal;font-size:14px;}
+li  a:visited { text-decoration:none; color:#FFF; font-weight:normal;font-size:14px;}
+
+li { list-style: none; color:#FFF;}
+li.vde { width:174px; height:23px; background-color:#005221; padding-left:22px; font-size:14px;
+		position:relative; top:0px; padding-top:5px; margin-bottom:2px; font-weight:normal; color:#FFF; }
+.aca {color:#FECC00;}
+		
+li.vde2 { width:174px; height:23px; background-color:#005221; padding-left:22px; position:relative; top:0px; padding-top:5px; font-weight:normal;}
+li.vde2 a:hover { width:174px; height:24px;font-size:14px; text-decoration: none; color:#FECC00; font-weight:normal; }
+li.vde a:hover { text-decoration: none; color:#FECC00; font-weight:normal; background-color:#005221; width:174px; height:23px;font-size:14px;}
+li.grs { width:174px; height:23px; padding-left:22px; position:relative; top:0px; padding-top:5px; margin-bottom:2px; font-weight:normal;font-size:14px;}
+li.grs a:hover {color:#FECC00;}
+li.prd {width:165px; height:23px; background-color: #5E8F6B; padding-left:31px; position:relative; top:0px; padding-top:5px; font-weight:normal;font-size:14px;}
+li.prd2 {width:165px; height:23px; background-color: #5E8F6B; padding-left:31px; 
+		position:relative; top:0px; padding-top:5px;margin-bottom:2px; font-weight:normal;font-size:14px;}
+ul { color: #FF0000; margin-left:10px;}
+
+
+li.aca a:link { text-decoration:none; color:#FECC00; font-weight:normal; font-size:14px;}
+
+
+#c1p li  { margin-bottom:10px;}
+#c1p li a {font-family: 'berling'; color:#005221; margin-left:10px;}
+
+p.otra { margin-left:340px; margin-top: -14px;}
