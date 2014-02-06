@@ -1,3 +1,8 @@
+if(typeof window.console === 'undefined') { 
+  window.console = {
+    log: function (msg) {} 
+  };
+}
 
 function createDate(dateConfig) {
   return new Date(dateConfig.year, dateConfig.month - 1, dateConfig.day, 0, 0, 0, 0);
