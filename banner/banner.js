@@ -30,7 +30,6 @@ $(document).ready(function(){
   console.log("Banner running until", endTimeStamp);
   
   if (startTimeStamp.getTime() <= now.getTime() && now.getTime() <= endTimeStamp.getTime()) {
-    console.log($("#Banner a"));
     console.log(link);
     $("#Banner a").attr("href", link);
     $("#Banner").show();
