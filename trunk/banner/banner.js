@@ -11,15 +11,15 @@ function createDate(dateConfig) {
 $(document).ready(function(){	
   var start = {
     year: 2014,
-    month: 2,
+    month: 08,
     day: 1
   },
   end = {
     year: 2014,
-    month: 3,
+    month: 11,
     day: 15
   },
-  link = "http://www.gulfood.com/Exhibitor/Pereda-Agro-S.A.";
+  link = "http://www.sialparis.com/Exhibitors-list-SIAL-2014/Exhibitors-list/Pereda-Agro-S.A";
   
   var now = new Date();
   var startTimeStamp = createDate(start);
