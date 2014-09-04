@@ -84,13 +84,13 @@ h1 {
               code="company.title" /></a></li>
         <li class="vde" id="pr"><a href="#" onclick="oculta('1');"><spring:message
               code="nav.menuProducts" /></a></li>
-        <li class="prd" id="prd" style="display: none;"><a
+        <li class="prd" id="prd" style="display: block;"><a
           href="/products/sunflower"><spring:message
               code="product-sunflower.title" /></a></li>
-        <li class="prd" id="prd2" style="display: none;"><a
+        <li class="prd" id="prd2" style="display: block;"><a
           href="/products/barley"><spring:message
               code="product-barley.title" /></a></li>
-        <li class="prd2" id="prd3" style="display: none;"><a
+        <li class="prd2" id="prd3" style="display: block;"><a
           href="/products/popcorn"><spring:message
               code="product-popcorn.title" /></a></li>
         <li class="vde2"><a href="/export"><spring:message

@@ -12,6 +12,9 @@ import com.google.common.base.Objects;
 @Controller
 @RequestMapping("/")
 public class MainController {
+    private static final Locale LOCALE_ENGLISH = Locale.ENGLISH;
+    private static final Locale LOCALE_SPANISH = new Locale("es");
+
     @RequestMapping("/")
     public String getIndexPage() {
         return "index";
@@ -69,9 +72,12 @@ public class MainController {
      */
     @ModelAttribute
     public void populateOtherLang(Locale locale, Model model) {
+        Locale selectedLang = Objects.equal(locale.getLanguage(),
+                LOCALE_SPANISH.getLanguage()) ? LOCALE_SPANISH : LOCALE_ENGLISH;
+        model.addAttribute("selectedLang", selectedLang.getLanguage());
         model.addAttribute(
                 "otherLang",
-                Objects.equal(locale.getLanguage(),
-                        Locale.ENGLISH.getLanguage()) ? "es" : "en");
+                LOCALE_SPANISH.equals(selectedLang) ? LOCALE_ENGLISH
+                        .getLanguage() : LOCALE_SPANISH.getLanguage());
     }
 }
