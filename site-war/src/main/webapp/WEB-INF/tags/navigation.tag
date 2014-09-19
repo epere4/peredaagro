@@ -19,8 +19,6 @@ h1 {
   font-family: 'Radley', serif;
 }
 </style>
-<link rel="stylesheet" type="text/css" href="/rsrc/txt.css" />
-<link rel="stylesheet" type="text/css" href="/rsrc/screen.css" />
 <link rel="stylesheet" type="text/css" href="/res/css/style.css" />
 <script type="text/javascript" src="/res/js/most.js"></script>
 <script type="text/javascript" src="/res/js/jquery.min.js"></script>
