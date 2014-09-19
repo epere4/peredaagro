@@ -65,6 +65,11 @@ public class MainController {
         return "contact";
     }
 
+    @RequestMapping("/sitemap")
+    public String getSitemapPage() {
+        return "sitemap";
+    }
+
     /**
      * This method is automatically invoked before any of the appropriate ones
      * annotated with {@link RequestMapping}. We use it to select the opposite
