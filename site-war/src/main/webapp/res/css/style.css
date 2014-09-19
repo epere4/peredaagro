@@ -110,3 +110,850 @@ ol li a:focus, .prevBtn a:focus, .nextBtn a:focus {
   overflow: hidden;
   font-size: 10px;
 }
+
+
+/* Start of ex lint.css file */
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#Content {
+  height: 1350px;
+}
+
+#Menures {
+  height: 1060px;
+}
+
+#MainBody {
+  height: 1510px;
+}
+
+#soci {
+  float: left;
+  margin-top: 30px;
+  margin-left: 745px;
+  z-index: 100;
+}
+
+#foot {
+  float: left;
+  width: 600px;
+  height: 30px;
+  float: left;
+  margin-top: 26px;
+  margin-left: 320px;
+}
+
+/* End of ex lint.css file */
+
+/* Start of ex screen.css file */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+Body {
+  background: #062307 url('bg-main995e.gif') center repeat-y;
+}
+
+#MainBody {
+  width: 960px;
+  height: 1023px;
+  position: relative;
+  background-color: #ECE9DA;
+  background-image: url(/rsrc/fondo-960x319.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+#MainContent {
+  width: 960px;
+  height: 871px;
+  z-index: 100;
+  position: relative;
+  top: 25px;
+}
+
+#Logo {
+  width: 196px;
+  height: 128px;
+  position: relative;
+  top: -5px;
+  background-image: url(/rsrc/logo-pereda.png);
+  background-repeat: no-repeat;
+  z-index: 100;
+  margin-bottom: 25px;
+}
+
+#Content {
+  width: 695px;
+  height: 862px;
+  background-color: #FFF;
+  z-index: 100;
+  position: relative;
+  top: -480px;
+  left: 233px;
+  padding-top: 9px;
+}
+
+#Menu {
+  width: 196px;
+  height: 480px;
+  position: relative;
+  z-index: 100;
+  margin-left: 30px;
+  font-family: 'berling';
+}
+
+#Menures {
+  width: 196px;
+  height: 572px;
+  position: relative;
+  top: 2px;
+  padding-top: 26px;
+  background-color: #B5B8B4;
+  font-family: 'berling';
+}
+
+#Menurest {
+  width: 196px;
+  height: 486px;
+  position: relative;
+  top: 2px;
+  padding-top: 26px;
+  background-color: #B5B8B4;
+  font-family: 'berling';
+}
+
+#dest {
+  width: 225px;
+  height: 37px;
+  float: left;
+  margin-top: 32px;
+  margin-left: 30px;
+  background-image: url(/rsrc/barra-destacados.png);
+}
+
+#c1 {
+  width: 400px;
+  height: 145px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 31px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ca {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin-left: 45px;
+  margin-top: -100px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #005221;
+  color: #101E14;
+}
+
+.cb {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin-left: 45px;
+  margin-top: -30px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #005221;
+  color: #101E14;
+}
+
+.cc {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin-left: 45px;
+  margin-top: 25px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #005221;
+  color: #101E14;
+}
+
+.ca a:link {
+  text-decoration: none;
+  color: #005221;
+}
+
+.ca a:visited {
+  text-decoration: none;
+  color: #005221;
+}
+
+.ca a:actived {
+  text-decoration: none;
+  color: #005221;
+}
+
+.ca a:hover {
+  text-decoration: underline;
+  color: #005221;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.cb a:link {
+  text-decoration: none;
+  color: #005221;
+}
+
+.cb a:visited {
+  text-decoration: none;
+  color: #005221;
+}
+
+.cb a:actived {
+  text-decoration: none;
+  color: #005221;
+}
+
+.cb a:hover {
+  text-decoration: underline;
+  color: #005221;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.cc a:link {
+  text-decoration: none;
+  color: #005221;
+}
+
+.cc a:visited {
+  text-decoration: none;
+  color: #005221;
+}
+
+.cc a:actived {
+  text-decoration: none;
+  color: #005221;
+}
+
+.cc a:hover {
+  text-decoration: underline;
+  color: #005221;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#capa {
+  width: 678px;
+  height: 280px;
+  position: relative;
+  top: 50px;
+}
+
+#cpt {
+  width: 380px;
+  height: 80px;
+  position: relative;
+  top: 80px;
+  left: 28px;
+  text-align: left;
+  padding: 0;
+}
+
+.rgl {
+  width: 350px;
+  height: 20px;
+}
+
+#soci {
+  color: #7E8378;
+  width: 150px;
+  height: 20px;
+  float: left;
+  margin-top: 70px;
+  margin-left: 780px;
+  z-index: 100;
+}
+
+#socic {
+  color: #7E8378;
+  width: 150px;
+  height: 20px;
+  float: left;
+  margin-top: 65px;
+  margin-left: 780px;
+  z-index: 100;
+}
+
+#socie {
+  color: #7E8378;
+  width: 150px;
+  height: 20px;
+  float: left;
+  margin-top: -300px;
+  margin-left: 780px;
+  z-index: 100;
+}
+
+#socid {
+  color: #7E8378;
+  width: 150px;
+  height: 20px;
+  float: left;
+  margin-top: -382px;
+  margin-left: 780px;
+  z-index: 100;
+}
+
+#socig {
+  color: #7E8378;
+  width: 150px;
+  height: 20px;
+  float: left;
+  margin-top: 52px;
+  margin-left: 780px;
+  z-index: 100;
+}
+
+#lnks {
+  width: 200px;
+  height: 18px;
+  float: left;
+  margin-top: -38px;
+  color: #7E8378;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#foot {
+  width: 600px;
+  height: 30px;
+  float: left;
+  margin-top: 32px;
+  margin-left: 355px;
+}
+
+#foot a:link {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#foot a:visited {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#foot a:active {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#foot a:hover {
+  color: #7E8378;
+  text-decoration: underline;
+  font-weight: normal;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#footc {
+  width: 600px;
+  height: 30px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 355px;
+}
+
+#footc a:link {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footc a:visited {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footc a:active {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footc a:hover {
+  color: #7E8378;
+  text-decoration: underline;
+  font-weight: normal;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#foote {
+  width: 600px;
+  height: 30px;
+  float: left;
+  margin-top: -252px;
+  margin-left: 355px;
+}
+
+#foote a:link {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#foote a:visited {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#foote a:active {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#foote a:hover {
+  color: #7E8378;
+  text-decoration: underline;
+  font-weight: normal;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#footd {
+  width: 600px;
+  height: 30px;
+  float: left;
+  margin-top: -332px;
+  margin-left: 355px;
+}
+
+#footd a:link {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footd a:visited {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footd a:active {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footd a:hover {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#footg {
+  width: 600px;
+  height: 30px;
+  float: left;
+  margin-top: 29px;
+  margin-left: 355px;
+}
+
+#footg a:link {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footg a:visited {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footg a:active {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+
+#footg a:hover {
+  color: #7E8378;
+  font-weight: normal;
+  text-decoration: none:
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#c1p {
+  width: 630px;
+  height: 145px;
+  position: relative;
+  top: 5px;
+  left: 28px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#c1p2 {
+  width: 630px;
+  height: 145px;
+  position: relative;
+  top: 5px;
+  left: 28px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/* #contlog { */
+/*   width: 630px; */
+/*   height: 966px; */
+/*   position: relative; */
+/*   top: 5px; */
+/*   left: 28px; */
+/* } */
+
+/* .tlgs { */
+/*   width: 477px; */
+/*   height: 138px; */
+/*   position: relative; */
+/*   left: 138px; */
+/*   top: -138px; */
+/*   text-align: left; */
+/*   padding-left: 15px; */
+/*   border-bottom: 1px solid #CCC; */
+/* } */
+
+/* .lgs { */
+/*   width: 138px; */
+/*   height: 138px; */
+/*   position: relative; */
+/*   left: 0px; */
+/*   text-align: left; */
+/* } */
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#prodima {
+  width: 678px;
+  height: 215px;
+  position: relative;
+  margin: 0px auto;
+  background-image: url(/rsrc/productos-girasol.jpg);
+}
+
+#emprima {
+  width: 678px;
+  height: 215px;
+  position: relative;
+  margin: 0px auto;
+  background-image: url(/rsrc/header-empresa.jpg);
+}
+
+#cebaima {
+  width: 678px;
+  height: 215px;
+  position: relative;
+  margin: 0px auto;
+  background-image: url(/rsrc/productos-cebada.jpg);
+}
+
+#maizma {
+  width: 678px;
+  height: 215px;
+  position: relative;
+  margin: 0px auto;
+  background-image: url(/rsrc/productos-maiz.jpg);
+}
+
+#expoima {
+  width: 678px;
+  height: 215px;
+  position: relative;
+  margin: 0px auto;
+  background-image: url(/rsrc/header-exportacion.jpg);
+}
+
+#contima {
+  width: 678px;
+  height: 215px;
+  position: relative;
+  margin: 0px auto;
+  background-image: url(/rsrc/header-contacto.jpg);
+}
+
+#lnkima {
+  width: 678px;
+  height: 215px;
+  position: relative;
+  margin: 0px auto;
+  background-image: url(/rsrc/header-linksinteres.jpg);
+}
+
+#mapima {
+  width: 678px;
+  height: 215px;
+  position: relative;
+  margin: 0px auto;
+  background-image: url(/rsrc/img-mapadesitio.jpg);
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#titu {
+  width: 600px;
+  height: 30px;
+  position: relative;
+  top: 10px;
+  left: 28px;
+}
+
+#titus {
+  width: 620px;
+  height: 30px;
+  position: relative;
+  top: 35px;
+  left: 28px;
+  margin-bottom: 60px;
+}
+
+#engl {
+  width: 85px;
+  height: 20px;
+  position: relative;
+  top: -1px;
+  left: 875px;
+  color: #7E8378;
+  font: "Trebuchet MS";
+  font-weight: normal;
+  color: #7E8378;
+  font-size: 20px;
+}
+
+#engl a {
+  font-weight: normal;
+  color: #7E8378;
+}
+
+#engl a:hover {
+  font-weight: normal;
+  color: #7E8378;
+  text-decoration: underline;
+}
+
+#Conten {
+  width: 695px;
+  height: 861px;
+  background-color: #FFF;
+  z-index: 100;
+  position: inherit;
+  float: left;
+  left: 233px;
+  margin-top: -480px;
+  padding-top: 9px;
+}
+
+.cata {
+  color: #101E14;
+}
+
+.cata a:link {
+  text-decoration: none;
+  color: #101E14;
+}
+
+.cata a:visited {
+  text-decoration: none;
+  color: #101E14;
+}
+
+.cata a:active {
+  text-decoration: none;
+  color: #101E14;
+}
+
+.cata a:hover {
+  text-decoration: underline;
+  color: #101E14;
+}
+/* End of ex screen.css file */
+
+
+/* Start of ex txt.css file */
+@import url(http://fonts.googleapis.com/css?family=Radley);
+
+p {
+  color: #101E14;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Trebuchet MS";
+}
+
+.dest {
+  color: #005221;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Trebuchet MS";
+}
+
+h1 {
+  color: #005221;
+  font-size: 30px;
+  font-family: 'Radley', serif;
+  line-height: 32px;
+}
+
+h2 {
+  font-family: 'berling';
+}
+
+h3 {
+  font-family: "Trebuchet MS";
+  font-size: 11px;
+  color: #7E8378;
+  font-weight: normal;
+}
+
+li a:link {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+li  a:visited {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+  color: #FFF;
+}
+
+li.vde {
+  width: 174px;
+  height: 23px;
+  background-color: #005221;
+  padding-left: 22px;
+  font-size: 14px;
+  position: relative;
+  top: 0px;
+  padding-top: 5px;
+  margin-bottom: 2px;
+  font-weight: normal;
+  color: #FFF;
+}
+
+.aca {
+  color: #FECC00;
+}
+
+li.vde2 {
+  width: 174px;
+  height: 23px;
+  background-color: #005221;
+  padding-left: 22px;
+  position: relative;
+  top: 0px;
+  padding-top: 5px;
+  font-weight: normal;
+}
+
+li.vde2 a:hover {
+  width: 174px;
+  height: 24px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FECC00;
+  font-weight: normal;
+}
+
+li.vde a:hover {
+  text-decoration: none;
+  color: #FECC00;
+  font-weight: normal;
+  background-color: #005221;
+  width: 174px;
+  height: 23px;
+  font-size: 14px;
+}
+
+li.grs {
+  width: 174px;
+  height: 23px;
+  padding-left: 22px;
+  position: relative;
+  top: 0px;
+  padding-top: 5px;
+  margin-bottom: 2px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+li.grs a:hover {
+  color: #FECC00;
+}
+
+li.prd {
+  width: 165px;
+  height: 23px;
+  background-color: #5E8F6B;
+  padding-left: 31px;
+  position: relative;
+  top: 0px;
+  padding-top: 5px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+li.prd2 {
+  width: 165px;
+  height: 23px;
+  background-color: #5E8F6B;
+  padding-left: 31px;
+  position: relative;
+  top: 0px;
+  padding-top: 5px;
+  margin-bottom: 2px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+ul {
+  color: #FF0000;
+  margin-left: 10px;
+}
+
+li.aca a:link {
+  text-decoration: none;
+  color: #FECC00;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#c1p li {
+  margin-bottom: 10px;
+}
+
+#c1p li a {
+  font-family: 'berling';
+  color: #005221;
+  margin-left: 10px;
+}
+
+p.otra {
+  margin-left: 340px;
+  margin-top: -14px;
+}
+/* End of ex txt.css file */
