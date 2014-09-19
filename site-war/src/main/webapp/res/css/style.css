@@ -1,7 +1,7 @@
 
-a{color: #fff;text-decoration: underline;font-weight: bold;}
-a:hover{color: #fff;text-decoration: none;font-weight: bold;}
-a:link {color:#fff; text-decoration:none; font-weiht: bold;}
+#menu a{color: #fff;text-decoration: underline;font-weight: bold;}
+#menu a:hover{color: #fff;text-decoration: none;font-weight: bold;}
+#menu a:link {color:#fff; text-decoration:none; font-weiht: bold;}
 
 img{border:none; z-index:1;}
 pre{margin-top:-16px;display:block;font:10px "Courier New", Courier, monospace;padding:10px;border:1px solid #bae2f0;background:#e3f4f9;width:678px;}	
