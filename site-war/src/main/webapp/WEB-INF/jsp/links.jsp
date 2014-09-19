@@ -4,11 +4,13 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 
-<spring:message code="links.title" var="title"/>
+<spring:message code="links.title" var="title" />
 <t:navigation title="${title}">
   <div id="lnkima"></div>
   <div id="titus" style="margin-bottom: 70px;">
-    <h1>Links de Inter&eacute;s</h1>
+    <h1>
+      <spring:message code="links.h1" />
+    </h1>
   </div>
   <div id="contlog" style="top: 0px;">
     <!--1-->
@@ -17,16 +19,12 @@
     </div>
     <!--1-->
     <div class="tlgs">
-      <br />
       <p>
-        <strong>Asociaci&oacute;n Argentina de Girasol (ASAGIR)</strong>
+        <strong><spring:message code="links.asagir.title" /></strong>
       </p>
-      <br />
-      <p>ASAGIR es una asociaci&oacute;n civil sin fines de lucro,
-        cuyo objetivo es la promoci&oacute;n y desarrollo del girasol,
-        sus derivados y subproductos obtenidos en la Rep&uacute;blica
-        Argentina.</p>
-      <br />
+      <p>
+        <spring:message code="links.asagir.description" />
+      </p>
       <p>
         <a href="http://www.asagir.org.ar" target="_blank" class="dest">http://www.asagir.org.ar</a>
       </p>
@@ -37,16 +35,12 @@
     </div>
     <!--2-->
     <div class="tlgs" style="top: -266px;">
-      <br />
       <p>
-        <strong>Asociaci&oacute;n Argentina de Consorcios
-          Regionales de Experimentaci&oacute;n Agr&iacute;cola (AACREA)</strong>
+        <strong><spring:message code="links.aacrea.title" /></strong>
       </p>
-      <br />
-      <p>La AACREA es una organizaci&oacute;n civil sin fines de
-        lucro que nuclea a los grupos CREA. Est&aacute; integrada y
-        dirigida por productores agropecuarios.</p>
-      <br />
+      <p>
+        <spring:message code="links.aacrea.description" />
+      </p>
       <p>
         <a href="http://www.aacrea.org.ar" target="_blank" class="dest">http://www.aacrea.org.ar</a>
       </p>
@@ -57,17 +51,12 @@
     </div>
     <!--3-->
     <div class="tlgs" style="top: -394px;">
-      <br />
       <p>
-        <strong>Instituto de Promoci&oacute;n de la Carne
-          Vacuna Argentina (IPCVA)</strong>
+        <strong><spring:message code="links.ipcva.title" /></strong>
       </p>
-      <br />
-      <p>El IPCVA se orienta a mejorar y consolidar la imagen de los
-        productos c&aacute;rnicos argentinos, aprovechando la historia y
-        tradici&oacute;n del pa&iacute;s en la materia y el prestigio
-        ganado en los mercados internacionales.</p>
-      <br />
+      <p>
+        <spring:message code="links.ipcva.description" />
+      </p>
       <p>
         <a href="http://www.ipcva.com.ar" target="_blank" class="dest">http://www.ipcva.com.ar</a>
       </p>
@@ -78,18 +67,12 @@
     </div>
     <!--4-->
     <div class="tlgs" style="top: -522px;">
-      <br />
       <p>
-        <strong>MAIZAR</strong>
+        <strong><spring:message code="links.maizar.title" /></strong>
       </p>
-      <br />
-      <p>Es el espacio que convoca a todos los integrantes de la
-        cadena productiva, comercial, industrial, alimenticia y
-        exportadora del ma&iacute;z, con el fin de promocionar el
-        crecimiento de este insumo como producto y generar un mayor
-        volumen de oferta para las industrias capaces de darle un
-        m&aacute;s alto valor agregado.</p>
-
+      <p>
+        <spring:message code="links.maizar.description" />
+      </p>
       <p>
         <a href="http://www.maizar.org.ar/" target="_blank" class="dest">http://www.maizar.org.ar</a>
       </p>
@@ -101,13 +84,11 @@
     <!--5-->
     <div class="tlgs" style="top: -650px;">
       <p>
-        <strong>Ministerio de Agricultura, Ganader&iacute;a y
-          Pesca (MINAGRI)</strong>
+        <strong><spring:message code="links.minagri.title" /></strong>
       </p>
-      <br />
-      <p>Ministerio de Agricultura, Ganader&iacute;a y Pesca.
-        Presidencia de la Naci&oacute;n.</p>
-      <br /> <br /> <br />
+      <p>
+        <spring:message code="links.minagri.description" />
+      </p>
       <p>
         <a href="http://www.minagri.gob.ar/" target="_blank"
           class="dest">http://www.minagri.gob.ar</a>
@@ -120,20 +101,15 @@
     <!--6-->
     <div class="tlgs" style="top: -778px;">
       <p>
-        <strong>National Sunflower Association (NSA)</strong>
+        <strong><spring:message code="links.sunflowernsa.title" /></strong>
       </p>
-      <br />
-      <p>La Asociaci&oacute;n Norteamericana del Girasol, National
-        Sunflower Association, con sus siglas en ingl&eacute;s NSA, es
-        una organizaci&oacute;n no gubernamental sin &aacute;nimo de
-        lucro, dedicada a la comunicaci&oacute;n y promoci&oacute;n de
-        la pipa de girasol y derivados, procedentes de EE.UU., y al
-        desarrollo de los mercados del girasol en el mundo entero.</p>
+      <p>
+        <spring:message code="links.sunflowernsa.description" />
+      </p>
       <p>
         <a href="http://www.sunflowernsa.com/" target="_blank"
           class="dest">http://www.sunflowernsa.com</a>
       </p>
-      <br />
     </div>
     <!--7-->
     <div class="lgs" style="top: -768px;">
@@ -141,13 +117,12 @@
     </div>
     <!--7-->
     <div class="tlgs" style="top: -906px;">
-      <br />
       <p>
-        <strong>USDA United States Department of Agriculture</strong>
+        <strong><spring:message code="links.usda.title" /></strong>
       </p>
-      <br />
-      <p>Departamento de Agricultura de los Estados Unidos.</p>
-      <br /> <br />
+      <p>
+        <spring:message code="links.usda.description" />
+      </p>
       <p>
         <a href="http://www.usda.gov/" target="_blank" class="dest">http://www.usda.gov</a>
       </p>
