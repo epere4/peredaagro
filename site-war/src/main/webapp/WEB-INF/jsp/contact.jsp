@@ -4,33 +4,45 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 
-<spring:message code="contact.title" var="title"/>
+<spring:message code="contact.title" var="title" />
 <t:navigation title="${title}">
   <div id="contima"></div>
   <div id="titus" style="margin-bottom: 70px;">
-    <h1>Contacto</h1>
+    <h1>
+      <spring:message code="contact.h1" />
+    </h1>
   </div>
   <div id="c1p">
-    <p>Para conocer m&aacute;s sobre nuestros productos y servicios,
-      por favor comun&iacute;quese por v&iacute;a telef&oacute;nica o
-      env&iacute;e su consulta a la direcci&oacute;n de e-mail indicada
-      a continuaci&oacute;n:</p>
-    <br />
     <p>
-      <strong>Pereda Agro S.A.</strong>
+      <spring:message code="contact.p1" />
     </p>
     <br />
-    <p>Paraguay 866 7mo Piso. (C1057AAL)</p>
-    <p>Buenos Aires, Argentina</p>
-    <br />
-    <p>Tel. / Fax: +54 11 4311-1461</p>
     <p>
-      E-mail: <a href="mailto:info@peredaagro.com.ar">info@peredaagro.com.ar</a>
+      <strong><spring:message code="contact.companyName" /></strong>
     </p>
     <br />
-    <h1>Localizaci&oacute;n Planta</h1>
+    <p>
+      <spring:message code="contact.address.line1" />
+    </p>
+    <p>
+      <spring:message code="contact.address.line2" />
+    </p>
     <br />
-    <p>36°07' S 62°58' W</p>
+    <p>
+      <spring:message code="contact.phoneFax" />
+    </p>
+    <p>
+      <spring:message code="contact.email" />
+      <a href="mailto:info@peredaagro.com.ar">info@peredaagro.com.ar</a>
+    </p>
+    <br />
+    <h1>
+      <spring:message code="contact.planLocation.h1" />
+    </h1>
+    <br />
+    <p>
+      <spring:message code="contact.planLocation.coordinates" />
+    </p>
     <br />
     <iframe width="635" height="350" frameborder="0" scrolling="no"
       marginheight="0" marginwidth="0"
