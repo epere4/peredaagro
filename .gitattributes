@@ -9,10 +9,20 @@
 *.java       text diff=java
 *.html       text diff=html
 *.css        text
+*.less       text
+*.properties text
 *.js         text
 *.sql        text
+*.xml        text
+*.tag        text
 MANIFEST.MF  text
 
 *.docx       diff=astextplain
 *.DOCX       diff=astextplain
+
+# Denote all files that are truly binary and should not be modified.
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.gif        binary
 
