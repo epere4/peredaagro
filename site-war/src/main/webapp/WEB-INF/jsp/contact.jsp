@@ -6,13 +6,12 @@
 
 <spring:message code="contact.title" var="title" />
 <t:navigation title="${title}">
-  <div id="contima"></div>
-  <div id="titus" style="margin-bottom: 70px;">
+  <div>
     <h1>
       <spring:message code="contact.h1" />
     </h1>
   </div>
-  <div id="c1p">
+  <div>
     <p>
       <spring:message code="contact.p1" />
     </p>

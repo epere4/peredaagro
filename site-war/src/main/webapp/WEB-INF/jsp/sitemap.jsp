@@ -6,11 +6,11 @@
 
 <spring:message code="sitemap.title" var="title" />
 <t:navigation title="${title}">
-  <div id="mapima"></div>
-  <div id="titus">
+  
+  <div>
     <h1>Site Map</h1>
   </div>
-  <div id="c1p" style="color: #FF0000;">
+  <div>
     <h1>TODO</h1>
   </div>
 </t:navigation>

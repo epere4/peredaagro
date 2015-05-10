@@ -6,9 +6,9 @@
 
 <spring:message code="gallery.title" var="title"/>
 <t:navigation title="${title}">
-  <div id="Conten">
+  <div>
 
-    <ul id="slideshow">
+    <ul>
 
       <!--1-->
       <li><h3></h3> <span>photos/01.jpg</span>

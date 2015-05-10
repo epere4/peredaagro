@@ -6,13 +6,12 @@
 
 <spring:message code="export.title" var="title" />
 <t:navigation title="${title}">
-  <div id="expoima"></div>
-  <div id="titus">
+  <div>
     <h1>
       <spring:message code="export.h1" />
     </h1>
   </div>
-  <div id="c1p2">
+  <div>
     <p>
       <spring:message code="export.p1" />
     </p>
@@ -22,7 +21,7 @@
     </p>
     <br />
     <p>
-      <img src="/res/img/mapa-export.jpg" style="margin-top: 25px;" />
+      <img src="/res/img/mapa-export.jpg" />
     </p>
   </div>
 </t:navigation>

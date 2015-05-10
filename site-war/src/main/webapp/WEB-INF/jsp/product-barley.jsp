@@ -6,13 +6,13 @@
 
 <spring:message code="product-barley.title" var="title" />
 <t:navigation title="${title}">
-  <div id="cebaima"></div>
-  <div id="titus">
+  
+  <div>
     <h1>
       <spring:message code="product-barley.h1" />
     </h1>
   </div>
-  <div id="c1p2">
+  <div>
     <p>
       <spring:message code="product-barley.p1" />
     </p>
@@ -30,7 +30,7 @@
         var="downloadCatalogImgAltText" />
       <strong><a
         href="/res/pdf/pereda-catalog-${selectedLang}.pdf"
-        target="_blank" class="cata"><spring:message
+        target="_blank"><spring:message
             code="product.downloadCatalog.LinkText" />&nbsp;<img
           src="/res/img/plus.png" alt="${downloadCatalogImgAltText}"
           border="0" /> </a></strong>
