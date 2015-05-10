@@ -6,10 +6,6 @@
         <param-name>contextConfigLocation</param-name>
         <param-value>/WEB-INF/root-context.xml</param-value>
     </context-param>
-    <servlet>
-        <servlet-name>RedirectToJsp</servlet-name>
-        <servlet-class>com.peredaagro.site.web.servlets.redirect.RedirectToJsp</servlet-class>
-    </servlet>
 
     <servlet>
         <servlet-name>dispatcher</servlet-name>
