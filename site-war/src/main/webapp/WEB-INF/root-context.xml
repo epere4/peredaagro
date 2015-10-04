@@ -12,7 +12,11 @@
 
 
   <mvc:annotation-driven
-    ignore-default-model-on-redirect="true" />
+    ignore-default-model-on-redirect="true">
+    <!-- This is to avoid having these parameters (?selectedLang=es&otherLang=en) 
+      in the URL when there is a redirect, such as when the user goes to /products 
+      and we redirect to /products/sunflower -->
+  </mvc:annotation-driven>
 
   <context:component-scan base-package="com.peredaagro.site.web.controllers" />
 
