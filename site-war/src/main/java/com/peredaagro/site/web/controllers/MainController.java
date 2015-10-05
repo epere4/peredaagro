@@ -35,14 +35,19 @@ public class MainController {
         return "product-sunflower";
     }
 
-    @RequestMapping("/products/barley")
-    public String getProductBarleyPage() {
-        return "product-barley";
-    }
-
     @RequestMapping("/products/popcorn")
     public String getProductPopcornPage() {
         return "product-popcorn";
+    }
+
+    @RequestMapping("/products/green-peas")
+    public String getProductGreenPeasPage() {
+        return "product-green-peas";
+    }
+
+    @RequestMapping("/products/beans")
+    public String getProductBeansPage() {
+        return "product-beans";
     }
 
     @RequestMapping("/export")

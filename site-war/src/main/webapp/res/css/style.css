@@ -30,6 +30,10 @@ body a {
   -ms-transition: 0.5s all;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .logo {
   float: left;
 }
@@ -40,12 +44,12 @@ body a {
 
 div#home {
   padding: 1em 0px 2em 0px;
-  background: #f1e85b;
+  background: #F1D35B;
   position: relative;
 }
 
 .top-nav ul li a {
-  color: #f1e85b;
+  color: #F1D35B;
   font-size: 14px;
   text-align: center;
   position: relative;
@@ -58,12 +62,13 @@ div#home {
 
 .top-nav ul li.active a, .top-nav ul li a:hover {
   color: #fff;
+  font-size: larger;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
-  background: #000;
+  background: #31353e;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -72,7 +77,7 @@ div#home {
 }
 
 .top-nav ul li a span {
-  background: url(../images/sprit-1.png) no-repeat 0px -1px;
+  background: url(/res/img/sprit-1.png) no-repeat 0px -1px;
   width: 22px;
   height: 22px;
   display: inline-block;
@@ -162,7 +167,7 @@ div#home {
 }
 
 .search2 input[type="submit"] {
-  background: url('../images/sprit-1.png') no-repeat -22px 0px;
+  background: url('/res/img/sprit-1.png') no-repeat -22px 0px;
   padding: 0px 15px;
   border: none;
   cursor: pointer;
@@ -216,7 +221,7 @@ ul.nav li {
 }
 
 .menu li a:hover, .menu li a.active {
-  color: #f1e85b;
+  color: #F1D35B;
 }
 
 .toggleMenu {
@@ -318,8 +323,31 @@ ul.nav li {
 
 .banner-about-us {
   background: url(/res/img/header-company.jpg) no-repeat;
+  min-height: 250px;
+  background-size: 100%;
+}
+
+.banner-export {
+  background: url(/res/img/export.jpg) no-repeat;
   min-height: 300px;
   background-size: 100%;
+}
+.banner-product {
+  min-height: 300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.banner-product-sunflower {
+  background-image: url(/res/img/sunflower-fields.jpg);
+}
+.banner-product-popcorn {
+  background-image: url(/res/img/corn.jpg);
+}
+.banner-product-green-peas {
+  background-image: url(/res/img/peas.jpg);
+}
+.banner-product-beans {
+  background-image: url(/res/img/beans.jpg);
 }
 
 .bnr-text {
@@ -338,7 +366,7 @@ ul.nav li {
 .bnr-text p {
   text-align: right;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 2.0em;
   width: 100%;
   margin: 0 auto;
   font-weight: 600;
@@ -346,7 +374,7 @@ ul.nav li {
 }
 
 .bttn a {
-  border: 1px solid #f1e85b;
+  border: 1px solid #F1D35B;
   font-size: 1.5em;
   font-weight: 600;
   color: #fff;
@@ -355,7 +383,7 @@ ul.nav li {
 }
 
 .bttn a:hover {
-  color: #f1e85b;
+  color: #F1D35B;
   border: 1px solid #fff;
   text-decoration: none;
   transition: 0.5s all;
@@ -371,7 +399,7 @@ ul.nav li {
 /*--end-banner--*/
 /*--starts-care--*/
 .care {
-  padding: 4em 0px 3em 0px;
+  padding: 0.5em 0px 3em 0px;
 }
 
 .care-top {
@@ -397,7 +425,7 @@ ul.nav li {
 }
 
 .care-bottom-left {
-  background: #f1e85b;
+  background: #F1D35B;
   padding: 2.3em 2em;
 }
 
@@ -447,6 +475,18 @@ ul.nav li {
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
+}
+
+@media ( min-width : 992px) {
+  .col-md-4.c-bottom>div {
+    min-height: 415px;
+  }
+}
+
+@media ( min-width : 1200px) {
+  .col-md-4.c-bottom>div {
+    min-height: 360px;
+  }
 }
 /*--end-care--*/
 /*--start-news--*/
@@ -566,7 +606,6 @@ ul.nav li {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
-  visibility: hidden;
   font-size: 1.1em;
   font-weight: 700;
 }
@@ -581,11 +620,12 @@ ul.nav li {
   display: block;
   font-size: 1.4em;
   text-transform: uppercase;
-  padding-top: 8.9em;
+  padding-top: 2.2em;
   display: block;
   font-weight: 600;
   width: 81%;
   margin: 0 auto;
+  text-shadow: 2px 2px #000000;
 }
 
 .b-animate button {
@@ -604,6 +644,7 @@ ul.nav li {
   -o-transition: 0.5s all;
   outline: none;
   margin-top: 20%;
+  text-shadow: 2px 2px #000000;
 }
 
 .b-animate label {
@@ -628,9 +669,6 @@ ul.nav li {
 
 .b-from-left {
   position: relative;
-  left: -100%;
-  background: rgba(251, 120, 2, 0.5);
-  background-size: 100% 100%;
   top: 0px;
   margin: 0;
   min-height: 557px;
@@ -739,20 +777,21 @@ img.port-pic {
 }
 /*--end-news--*/
 /*--start-contact--*/
+.contact {
+  padding: 4em 0px 3em 0px;
+  background: #31353e;
+  color: #fff;
+}
+
 .contact-left h4 {
-  color: #4e4e4b;
+  color: #fff;
   font-size: 1.2em;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.contact {
-  background: #f2f2ef;
-  padding: 7em 0px 5em 0px;
-}
-
 .contact-left p {
-  color: #4e4e4b;
+  color: #fff;
   font-size: 15px;
   font-weight: 100;
   width: 70%;
@@ -760,7 +799,7 @@ img.port-pic {
 }
 
 .contact-left p span {
-  color: #4e4e4b;
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
   margin-right: 5px;
@@ -772,7 +811,7 @@ img.port-pic {
 }
 
 .contact-left p a:hover {
-  color: #4e4e4b;
+  color: #fff;
   text-decoration: none;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -791,7 +830,7 @@ img.port-pic {
 }
 
 .contact-left ul li span {
-  background: url(../images/icon-sprit.png) no-repeat;
+  background: url(/res/img/icon-sprit.png) no-repeat;
   width: 44px;
   height: 44px;
   display: block;
@@ -836,8 +875,9 @@ img.port-pic {
 /*--end-contact--*/
 /*--start-map--*/
 .map iframe {
-  width: 100%;
+  width: 50%;
   height: 250px;
+  float: left;
 }
 /*--end-map--*/
 /*--start-footer--*/
@@ -878,15 +918,20 @@ img.port-pic {
   height: 48px;
   border: none;
   text-indent: 100%;
-  background: url(../images/top.png) no-repeat 0px 0px;
+  background: url(/res/img/top.png) no-repeat 0px 0px;
 }
 /*--start-about--*/
 .col-md-4.about-one-left {
   padding: 0px;
 }
 
+.flickr-fotos {
+  width: 600px;
+  height: 400px;
+}
+
 .about {
-  padding: 6em 0px 3em 0px;
+  padding: 1em 0px 3em 0px;
 }
 
 .about-left-one {
@@ -917,7 +962,7 @@ img.port-pic {
 }
 
 .about-left ul li {
-  list-style-image: url(../images/fd.png);
+  list-style-image: url(/res/img/fd.png);
   margin: 0px 0px 12px 18px;
 }
 
@@ -984,7 +1029,7 @@ img.port-pic {
 }
 
 .choose-left span {
-  background: url(../images/choose-sprit.png) no-repeat;
+  background: url(/res/img/choose-sprit.png) no-repeat;
   width: 100px;
   height: 100px;
   display: block;
@@ -1438,7 +1483,7 @@ ul.tabs-menu li a img {
 }
 
 .ctgry ul li, .archives ul li {
-  list-style-image: url(../images/mkr.png);
+  list-style-image: url(/res/img/mkr.png);
   margin: 0px 0px 12px 18px;
   vertical-align: top;
 }
@@ -1546,7 +1591,7 @@ ul.tabs-menu li a img {
 .social-status ul li span {
   width: 25px;
   height: 25px;
-  background: url(../images/status-icons.png) no-repeat;
+  background: url(/res/img/status-icons.png) no-repeat;
   display: inline-block;
   margin-right: 7px;
   cursor: pointer;
@@ -1725,7 +1770,7 @@ ul.tabs-menu li a img {
     margin: 2px 0px 0px 6px;
   }
   .about {
-    padding: 6em 0px 2em 0px;
+    padding: 1em 0px 2em 0px;
   }
   .choose {
     padding: 1em 0px 2.5em 0px;
@@ -1753,9 +1798,9 @@ ul.tabs-menu li a img {
   }
 }
 
-@media ( max-width :1024px) {
+@media ( max-width :992px) {
   .about-one-left img {
-    width: 100%;
+    width: 50%;
   }
   .blg {
     margin-top: 2em;
@@ -1819,7 +1864,6 @@ ul.tabs-menu li a img {
   }
   .about-one-left p {
     line-height: 1.6em;
-    height: 92px;
     overflow: hidden;
   }
   .choose-top h3 {
@@ -1836,7 +1880,7 @@ ul.tabs-menu li a img {
     margin: 0 auto;
   }
   .about {
-    padding: 6em 0px 2em 0px;
+    padding: 1em 0px 2em 0px;
   }
   .choose-left p {
     font-size: 15px;
@@ -1872,6 +1916,9 @@ ul.tabs-menu li a img {
     margin: 2px 0px 0px 0px;
   }
   .banner-about-us {
+    min-height: 220px;
+  }
+  .banner-export {
     min-height: 250px;
   }
   .banner-image-home {
@@ -1881,7 +1928,7 @@ ul.tabs-menu li a img {
     font-size: 2.5em;
   }
   .bnr-text p {
-    font-size: 1.2em;
+    font-size: 2.0em;
   }
   .care-top p {
     width: 73%;
@@ -1890,7 +1937,7 @@ ul.tabs-menu li a img {
   }
   .b-animate span {
     font-size: 1.3em;
-    padding-top: 6.9em;
+    padding-top: 2.8em;
     width: 88%;
   }
   .b-animate button {
@@ -1911,7 +1958,7 @@ ul.tabs-menu li a img {
     margin-top: 8% !important;
   }
   .care {
-    padding: 2.5em 0px 1.5em 0px;
+    padding: 1.5em 0px 1.5em 0px;
   }
   .news-bottom {
     margin-top: 2.3em;
@@ -2062,7 +2109,7 @@ ul.tabs-menu li a img {
     margin-left: 16em;
   }
   .about {
-    padding: 1.5em 0px 1em 0px;
+    padding: 1em 0px 1em 0px;
   }
   .choose-top h3 {
     font-size: 2em;
@@ -2104,7 +2151,6 @@ ul.tabs-menu li a img {
   }
   .about-one-left p {
     line-height: 1.8em;
-    height: 138px;
     overflow: hidden;
     margin-top: 11px;
   }
@@ -2112,13 +2158,19 @@ ul.tabs-menu li a img {
     font-size: 16px;
     line-height: 1.6em;
   }
+  .bnr-text {
+    margin-top: 18%;
+  }
   .bnr-text h1 {
     font-size: 2.1em;
   }
   .bnr-text p {
-    font-size: 1.1em;
+    font-size: 1.8em;
   }
   .banner-about-us {
+    min-height: 175px;
+  }
+  .banner-export {
     min-height: 200px;
   }
   .banner-image-home {
@@ -2165,7 +2217,7 @@ ul.tabs-menu li a img {
   }
   .b-animate span {
     font-size: 1em;
-    padding-top: 7.3em;
+    padding-top: 1.4em;
     width: 100%;
   }
   .fd-btn a {
@@ -2223,7 +2275,7 @@ ul.tabs-menu li a img {
     font-size: 1.8em;
   }
   .bnr-text p {
-    font-size: 0.8em;
+    font-size: 1.8em;
   }
   .blog-left h5 {
     font-size: 1.05em;
@@ -2268,7 +2320,6 @@ ul.tabs-menu li a img {
   }
   .about-one-left p {
     line-height: 1.6em;
-    height: 102px;
     overflow: hidden;
     margin-top: 18px;
   }
@@ -2292,13 +2343,15 @@ ul.tabs-menu li a img {
   }
   .about-one-left h4 {
     overflow: hidden;
-    height: 44px;
   }
   .bttn a {
     font-size: 1.25em;
     padding: 10px 1.8em;
   }
   .banner-about-us {
+    min-height: 100px;
+  }
+  .banner-export {
     min-height: 100px;
   }
   .banner-image-home {
@@ -2339,7 +2392,7 @@ ul.tabs-menu li a img {
   }
   .b-animate span {
     font-size: 15px;
-    padding-top: 6.5em;
+    padding-top: 1.5em;
   }
   .news-bottom {
     margin-top: 1.8em;
@@ -2532,9 +2585,6 @@ ul.tabs-menu li a img {
   .err-bttn {
     margin: 1.5em 0px 0px 1em;
   }
-  .about-one-left h4 {
-    height: 19px;
-  }
   .about-left h3, .choose-top h3 {
     font-size: 1.5em;
   }
@@ -2575,7 +2625,6 @@ ul.tabs-menu li a img {
   }
   .about-one-left p {
     line-height: 1.5em;
-    height: 87px;
     margin-top: 9px;
   }
   .top-nav ul li a span {
@@ -2604,12 +2653,15 @@ ul.tabs-menu li a img {
     font-size: 1.55em;
   }
   .bnr-text p {
-    font-size: 0.5em;
+    font-size: 1.55em;
   }
   .bttn {
     margin-top: 2.2em;
   }
   .banner-about-us {
+    min-height: 100px;
+  }
+  .banner-export {
     min-height: 100px;
   }
   .banner-image-home {
@@ -2621,7 +2673,6 @@ ul.tabs-menu li a img {
   .care-top p {
     width: 87%;
     overflow: hidden;
-    height: 46px;
   }
   .care-bottom-left h4, .care-bottom-middle h4, .care-bottom-right h4 {
     font-size: 1.1em;
@@ -2769,7 +2820,7 @@ ul.tabs-menu li a img {
     margin: 1em 0px;
   }
   .about {
-    padding: 1.4em 0px 3px 0px;
+    padding: 0em 0px 3px 0px;
   }
   .choose-left {
     margin: 3px 0px;
@@ -2785,7 +2836,6 @@ ul.tabs-menu li a img {
   }
   .about-one-left p {
     line-height: 1.55em;
-    height: 44px;
     margin-top: 4px;
   }
   .col-md-8.about-one-left {
@@ -2810,7 +2860,7 @@ ul.tabs-menu li a img {
     height: 17px;
     margin-right: 4px;
     background-size: 244%;
-    background: url(../images/sprit-1.png) no-repeat -3px -3px;
+    background: url(/res/img/sprit-1.png) no-repeat -3px -3px;
   }
   .top-nav a {
     line-height: 27px;
@@ -2826,7 +2876,7 @@ ul.tabs-menu li a img {
   }
   .search2 input[type="submit"] {
     margin: 1px 0px 0px -1px;
-    background: url('../images/sprit-1.png') no-repeat -23px 0px;
+    background: url('/res/img/sprit-1.png') no-repeat -23px 0px;
   }
   .menu {
     width: 10%;
@@ -2840,7 +2890,7 @@ ul.tabs-menu li a img {
     width: 100%;
   }
   .bnr-text p {
-    font-size: 0.5em;
+    font-size: 1.2em;
   }
   div#home {
     padding: 0.6em 0px 1.5em 0px;
@@ -2856,9 +2906,12 @@ ul.tabs-menu li a img {
     margin-top: 1.6em;
   }
   .bnr-text {
-    margin-top: 22%;
+    margin-top: 18%;
   }
   .banner-about-us {
+    min-height: 92px;
+  }
+  .banner-export {
     min-height: 92px;
   }
   .banner-image-home {
@@ -2906,7 +2959,7 @@ ul.tabs-menu li a img {
     padding: 2.5em 0px 1.7em 0px;
   }
   .b-animate span {
-    padding-top: 6.5em;
+    padding-top: 3.5em;
   }
   .b-left span {
     font-size: 11px !important;

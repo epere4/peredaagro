@@ -9,7 +9,9 @@
   <div class="banner banner-about-us">
     <div class="container">
       <div class="bnr-text">
-        <p>Integrantes clave del grupo Pereda, d&eacute;cada de 1960</p>
+        <p>
+          <spring:message code="company.banner.title" />
+        </p>
       </div>
     </div>
   </div>
@@ -18,20 +20,20 @@
     <div class="container">
       <div class="about-main">
         <div class="col-md-12 about-left">
-          <h3>
+          <h2>
             <spring:message code="company.title" />
-          </h3>
+          </h2>
           <p>
-            <spring:message code="company.h1" />
+            <spring:message code="company.subtitle" />
           </p>
           <div class="about-left-one">
             <div class="col-md-4 about-one-left">
               <img src="/res/img/logo-pereda-full.jpg" alt="">
             </div>
             <div class="col-md-8 about-one-left">
-              <h4>Tradici&oacute;n</h4>
+              <h4><spring:message code="company.tradition.title"/></h4>
               <p>
-                <spring:message code="company.p1" />
+                <spring:message code="company.tradition.text" />
               </p>
             </div>
             <div class="clearfix"></div>
@@ -41,9 +43,9 @@
               <img src="/res/img/cattle.jpg" alt="">
             </div>
             <div class="col-md-8 about-one-left">
-              <h4>Lo que hacemos</h4>
+              <h4><spring:message code="company.whatWeDo.title"/></h4>
               <p>
-                <spring:message code="company.p2" />
+                <spring:message code="company.whatWeDo.text" />
               </p>
             </div>
             <div class="clearfix"></div>
@@ -53,9 +55,9 @@
               <img src="/res/img/planta-de-silos.jpg" alt="">
             </div>
             <div class="col-md-8 about-one-left">
-              <h4>Calidad e innovaci&oacute;n en servicios</h4>
+              <h4><spring:message code="company.innovation.title"/></h4>
               <p>
-                <spring:message code="company.p3" />
+                <spring:message code="company.innovation.text" />
               </p>
             </div>
             <div class="clearfix"></div>
@@ -65,9 +67,9 @@
               <img src="/res/img/sunflower-processing.jpg" alt="">
             </div>
             <div class="col-md-8 about-one-left">
-              <h4>Tecnolog&iacute;a</h4>
+              <h4><spring:message code="company.technology.title"/></h4>
               <p>
-                <spring:message code="company.p4" />
+                <spring:message code="company.technology.text" />
               </p>
             </div>
             <div class="clearfix"></div>
@@ -77,9 +79,9 @@
               <img src="/res/img/customers.jpg" alt="">
             </div>
             <div class="col-md-8 about-one-left">
-              <h4>Calidad</h4>
+              <h4><spring:message code="company.quality.title"/></h4>
               <p>
-                <spring:message code="company.p5" />
+                <spring:message code="company.quality.text" />
               </p>
             </div>
             <div class="clearfix"></div>

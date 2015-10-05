@@ -4,26 +4,25 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 
-<spring:message code="product-barley.title" var="title" />
-<t:navigation title="${title}">
+<t:product productCodeName="green-peas">
   
-  <div>
+<%--   <div>
     <h1>
-      <spring:message code="product-barley.h1" />
+      <spring:message code="product-green-peas.h1" />
     </h1>
-  </div>
+  </div> --%>
   <div>
-    <p>
-      <spring:message code="product-barley.p1" />
+<%--     <p>
+      <spring:message code="product-green-peas.p1" />
     </p>
     <br />
     <p>
-      <spring:message code="product-barley.p2" />
+      <spring:message code="product-green-peas.p2" />
     </p>
     <br />
     <p>
-      <spring:message code="product-barley.p3" />
-    </p>
+      <spring:message code="product-green-peas.p3" />
+    </p> --%>
     <br />
     <p>
       <spring:message code="product.downloadCatalog.imgAltText"
@@ -36,4 +35,4 @@
           border="0" /> </a></strong>
     </p>
   </div>
-</t:navigation>
+</t:product>

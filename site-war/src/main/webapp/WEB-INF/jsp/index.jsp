@@ -24,32 +24,58 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img class="first-slide"
-          src="/res/img/${selectedLang}/slide-1.jpg" alt="First slide">
+        <img class="first-slide" src="/res/img/sunflower-fields.jpg"
+          alt="First slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Example headline.</h1>
+            <h1>
+              <a href="/products/sunflower"><spring:message
+                  code="product-sunflower.title" /></a>
+              <%--  <spring:message code="index.carousel.01.caption" /> --%>
+            </h1>
           </div>
         </div>
       </div>
       <div class="item">
-        <img class="second-slide"
-          src="/res/img/${selectedLang}/slide-2.jpg" alt="Second slide">
+        <img class="second-slide" src="/res/img/corn.jpg"
+          alt="Second slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Example headline.</h1>
+            <h1>
+              <a href="/products/popcorn"><spring:message
+                  code="product-popcorn.title" /></a>
+              <%-- <spring:message code="index.carousel.02.caption" /> --%>
+            </h1>
           </div>
         </div>
       </div>
       <div class="item">
-        <img class="third-slide"
-          src="/res/img/${selectedLang}/slide-3.jpg" alt="Third slide">
+        <img class="third-slide" src="/res/img/peas.jpg"
+          alt="Third slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Example headline.</h1>
+            <h1>
+              <a href="/products/peas"><spring:message
+                  code="product-green-peas.title" /></a>
+              <%-- <spring:message code="index.carousel.03.caption" /> --%>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="fourth-slide" src="/res/img/beans.jpg"
+          alt="Fourth slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>
+              <a href="/products/beans"><spring:message
+                  code="product-beans.title" /></a>
+              <%-- <spring:message code="index.carousel.04.caption" /> --%>
+            </h1>
           </div>
         </div>
       </div>
@@ -96,45 +122,45 @@
         <div class="care-bottom">
           <div class="col-md-4 c-bottom">
             <div class="care-bottom-left">
-              <h4>variations of passages</h4>
-              <p>which don't look even slightly believable. If you
-                are going to use a passage of Lorem Ipsum, you need to
-                be sure there isn't anything embarrassing hidden in the
-                middle of text.</p>
-              <div class="view">
+              <img src="/res/img/tree-2.png" alt="">
+              <h4>
+                <spring:message code="index.care.tradition.title" />
+              </h4>
+              <p>
+                <spring:message code="index.care.tradition.text" />
+              </p>
+              <!--               <div class="view">
                 <a href="blog.html">VIEW</a>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="col-md-4 c-bottom">
             <div class="care-bottom-middle">
-              <h4>variations of passages</h4>
-              <p>which don't look even slightly believable. If you
-                are going to use a passage of Lorem Ipsum, you need to
-                be sure there isn't anything embarrassing hidden in the
-                middle of text.</p>
-              <div class="view">
-                <a href="blog.html">VIEW</a>
-              </div>
+              <img src="/res/img/tree-1.png" alt="">
+              <h4>
+                <spring:message code="index.care.sustainability.title" />
+              </h4>
+              <p>
+                <spring:message code="index.care.sustainability.text" />
+              </p>
             </div>
           </div>
           <div class="col-md-4 c-bottom">
             <div class="care-bottom-right">
-              <h4>variations of passages</h4>
-              <p>which don't look even slightly believable. If you
-                are going to use a passage of Lorem Ipsum, you need to
-                be sure there isn't anything embarrassing hidden in the
-                middle of text.</p>
-              <div class="view">
-                <a href="blog.html">VIEW</a>
-              </div>
+              <img src="/res/img/tree.png" alt="">
+              <h4>
+                <spring:message code="index.care.quality.title" />
+              </h4>
+              <p>
+                <spring:message code="index.care.quality.text" />
+              </p>
             </div>
           </div>
           <div class="clearfix"></div>
         </div>
       </div>
     </div>
-    <div>
+<%--     <div>
       <spring:message code="index.featured.imgAltText"
         var="featuredImgAltText" />
       <div>
@@ -152,6 +178,78 @@
                 code="index.featured2.linkText" />&nbsp;<img
               src="/res/img/plus.png" alt="${featuredImgAltText}" /> </a></strong>
         </p>
+      </div>
+    </div> --%>
+<!--     <div>
+      <iframe width="100%" frameborder="0"
+        src="http://blogging.nitecruzr.net/2007/11/make-iframe-to-contain-another-blog-on.html"
+        height="400"></iframe>
+    </div> -->
+    <div class="news">
+      <div class="container">
+        <div class="news-top">
+          <h3>
+            <spring:message code="index.featured.title" />
+          </h3>
+        </div>
+        <div class="news-bottom">
+          <div class="col-md-6 news-bottom-left">
+            <div class="news-btm">
+              <a class="b-link-stripe b-animate-go  thickbox"> <img
+                class="port-pic img-responsive" src="/res/img/apple.jpg" />
+                <div class="b-wrapper">
+                  <h2 class="b-animate b-from-left b-from b-delay03 ">
+                    <span><spring:message
+                        code="index.featured.01.title" /></span>
+                    <button>
+                      <spring:message
+                        code="index.products.detailsButton" />
+                    </button>
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 news-bottom-left">
+            <div class="news-btm">
+              <a
+                href="http://nuevacastilla.com.ar:8081/meteorologia/mb3.htm"
+                target="_blank"
+                class="b-link-stripe b-animate-go  thickbox"> <img
+                class="port-pic img-responsive" src="/res/img/apple.jpg" />
+                <div class="b-wrapper">
+                  <h2 class="b-animate b-from-left b-from b-delay03 ">
+                    <span><spring:message
+                        code="index.featured.02.title" /></span>
+                    <button>
+                      <spring:message
+                        code="index.products.detailsButton" />
+                    </button>
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-12 news-bottom-left">
+            <div class="news-btm">
+              <a href="/products/popcorn"
+                class="b-link-stripe b-animate-go  thickbox"> <img
+                class="port-pic img-responsive"
+                src="/res/img/fd-btm1.jpg" />
+                <div class="b-wrapper">
+                  <h2 class="b-animate b-from-left b-from b-delay03 ">
+                    <span><spring:message
+                        code="index.featured.03.title" /></span>
+                    <button>
+                      <spring:message
+                        code="index.products.detailsButton" />
+                    </button>
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -4,30 +4,26 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 
-<t:product productCodeName="sunflower">
+<t:product productCodeName="beans">
   <div>
     <h1>
-      <spring:message code="product-sunflower.h1" />
+      Propio de la pagina: <spring:message code="product-beans.title" />
     </h1>
   </div>
-  <div>
+ <%--  <div>
     <p>
-      <spring:message code="product-sunflower.p1" />
+      <spring:message code="product-beans.p1" />
     </p>
     <br />
     <p>
-      <spring:message code="product-sunflower.p2" />
+      <spring:message code="product-beans.p2" />
     </p>
     <br />
     <p>
-      <spring:message code="product-sunflower.p3" />
+      <spring:message code="product-beans.p3" />
     </p>
     <br />
     <p>
-      <spring:message code="product-sunflower.p4" />
-    </p>
-    <br />
-  <%--   <p>
       <spring:message code="product.downloadCatalog.imgAltText"
         var="downloadCatalogImgAltText" />
       <strong><a
@@ -36,12 +32,6 @@
             code="product.downloadCatalog.LinkText" />&nbsp;<img
           src="/res/img/plus.png" alt="${downloadCatalogImgAltText}"
           border="0" /> </a></strong>
-    </p> --%>
-    <div>
-      <img src="/res/img/${selectedLang}/girasol-semilla.jpg" />
-    </div>
-    <div>
-      <img src="/res/img/${selectedLang}/calibre-girasol.png" />
-    </div>
-  </div>
+    </p>
+  </div> --%>
 </t:product>
