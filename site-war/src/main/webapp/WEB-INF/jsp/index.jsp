@@ -59,7 +59,7 @@
         <div class="container">
           <div class="carousel-caption">
             <h1>
-              <a href="/products/peas"><spring:message
+              <a href="/products/green-peas"><spring:message
                   code="product-green-peas.title" /></a>
               <%-- <spring:message code="index.carousel.03.caption" /> --%>
             </h1>

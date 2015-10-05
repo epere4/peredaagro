@@ -127,7 +127,7 @@
   <div class="contact">
     <div class="container">
       <div class="contact-main">
-        <div class="col-md-4 contact-left">
+        <div class="col-md-4 contact-left contact-left-footer">
           <h4>
             <spring:message code="contact.contactUs" />
           </h4>
@@ -141,7 +141,7 @@
               href="tel:+541143111461">+54 11 4311-1461</a>
           </p>
         </div>
-        <div class="col-md-4 contact-left">
+        <div class="col-md-4 contact-left contact-left-footer">
           <h4>
             <spring:message code="contact.address.title" />
           </h4>
@@ -156,7 +156,7 @@
             <spring:message code="contact.address.line3" />
           </p>
         </div>
-        <div class="col-md-4 contact-left">
+        <div class="col-md-4 contact-left contact-left-footer">
           <h4>
             <spring:message code="nav.shareOn" />
           </h4>

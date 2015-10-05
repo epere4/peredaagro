@@ -48,7 +48,11 @@
   width: 80%;
   margin: 0 auto;
   font-weight: 600;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 
+   1px 1px #000000,
+   -1px -1px #000000,
+   -1px 1px #000000, 
+   1px -1px #000000;
 }
 
 .carousel-caption a {
@@ -56,7 +60,11 @@
   width: 80%;
   margin: 0 auto;
   font-weight: 600;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 
+   1px 1px #000000,
+   -1px -1px #000000,
+   -1px 1px #000000, 
+   1px -1px #000000;
   text-decoration: none;
 }
 
@@ -67,7 +75,11 @@
   width: 100%;
   margin: 0 auto;
   font-weight: 600;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 
+   1px 1px #000000,
+   -1px -1px #000000,
+   -1px 1px #000000, 
+   1px -1px #000000;
 }
 
 /* Declare heights because of positioning of img element */

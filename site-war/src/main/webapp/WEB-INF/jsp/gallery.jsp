@@ -6,7 +6,7 @@
 
 <spring:message code="gallery.title" var="title" />
 <t:navigation title="${title}">
-  <div class="care">
+  <div class="care-no-banner">
     <!-- style="text-align: center;" 
   style="margin: 0px auto;"-->
     <div class="container">

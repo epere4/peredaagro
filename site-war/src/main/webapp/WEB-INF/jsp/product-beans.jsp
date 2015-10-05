@@ -6,32 +6,87 @@
 
 <t:product productCodeName="beans">
   <div>
-    <h1>
-      Propio de la pagina: <spring:message code="product-beans.title" />
-    </h1>
+    <h2>
+      <spring:message code="product-beans.h1" />
+    </h2>
   </div>
- <%--  <div>
-    <p>
-      <spring:message code="product-beans.p1" />
-    </p>
-    <br />
-    <p>
-      <spring:message code="product-beans.p2" />
-    </p>
-    <br />
-    <p>
-      <spring:message code="product-beans.p3" />
-    </p>
-    <br />
-    <p>
-      <spring:message code="product.downloadCatalog.imgAltText"
-        var="downloadCatalogImgAltText" />
-      <strong><a
-        href="/res/pdf/pereda-catalog-${selectedLang}.pdf"
-        target="_blank"><spring:message
-            code="product.downloadCatalog.LinkText" />&nbsp;<img
-          src="/res/img/plus.png" alt="${downloadCatalogImgAltText}"
-          border="0" /> </a></strong>
-    </p>
-  </div> --%>
+  <div class="container">
+    <div class="col-md-5">
+      <div class="panel panel-peredaagro">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <spring:message code="product-beans.packaging.title" />
+          </h3>
+        </div>
+        <div class="panel-body">
+          <spring:message code="product-beans.packaging.text" />
+          <ul>
+            <li>20 kg</li>
+            <li>25 kg</li>
+            <li>40 kg</li>
+            <li>50 kg</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="panel panel-peredaagro">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <spring:message code="product-beans.variety.title" />
+          </h3>
+        </div>
+        <div class="panel-body">
+          <%--   <spring:message code="product-beans.variety.text" /> --%>
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="beans-left-image beans-dark-red-kidney">
+                    <spring:message
+                      code="product-beans.dark-red-kidney.title" />
+                  </div>
+                </td>
+                <td><spring:message
+                    code="product-beans.grains-per-100-grams.text" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="beans-left-image beans-light-red-kidney">
+                    <spring:message
+                      code="product-beans.light-red-kidney.title" />
+                  </div>
+                </td>
+                <td><spring:message
+                    code="product-beans.grains-per-100-grams.text" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="beans-left-image beans-cranberry">
+                    <spring:message code="product-beans.cranberry.title" />
+                  </div>
+                </td>
+                <td><spring:message
+                    code="product-beans.grains-per-100-grams.text" /></td>
+              </tr>
+              <tr>
+                <td><div class="beans-left-image beans-black">
+                    <spring:message code="product-beans.black.title" />
+                  </div></td>
+                <td><spring:message
+                    code="product-beans.95perc-grater-3.5mm.text" /></td>
+              </tr>
+              <tr>
+                <td><div class="beans-left-image beans-mung">
+                    <spring:message code="product-beans.mung.title" />
+                  </div></td>
+                <td><spring:message
+                    code="product-beans.95perc-grater-3.5mm.text" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 </t:product>

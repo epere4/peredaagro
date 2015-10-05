@@ -8,9 +8,9 @@
   <div class="care">
     <div class="container">
       <div>
-        <h1>
+        <h2>
           <spring:message code="product-popcorn.h1" />
-        </h1>
+        </h2>
       </div>
       <div>
         <p>
@@ -45,7 +45,7 @@
       </p> --%>
         <div class="container">
           <div class="col-md-3">
-            <div class="panel panel-success">
+            <div class="panel panel-peredaagro">
               <div class="panel-heading">
                 <h3 class="panel-title">
                   <spring:message code="product-popcorn.packaging.title" />
@@ -57,7 +57,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="panel panel-success">
+            <div class="panel panel-peredaagro">
               <div class="panel-heading">
                 <h3 class="panel-title">
                   <spring:message code="product-popcorn.size.title" />
@@ -69,7 +69,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="panel panel-success">
+            <div class="panel panel-peredaagro">
               <div class="panel-heading">
                 <h3 class="panel-title">
                   <spring:message code="product-popcorn.explosion.title" />
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="panel panel-success">
+            <div class="panel panel-peredaagro">
               <div class="panel-heading">
                 <h3 class="panel-title">
                   <spring:message code="product-popcorn.expansion.title" />

@@ -314,6 +314,30 @@ ul.nav li {
   }
 }
 /*--end-navgation--*/
+/*--start panel-peredaagro --*/
+.panel-peredaagro {
+  border-color: #d6e9c6;
+}
+
+.panel-peredaagro>.panel-heading {
+  color: #FFF;
+  background-color: #005822;
+  border-color: #d6e9c6;
+}
+
+.panel-peredaagro>.panel-heading+.panel-collapse>.panel-body {
+  border-top-color: #d6e9c6;
+}
+
+.panel-peredaagro>.panel-heading .badge {
+  color: #dff0d8;
+  background-color: #3c763d;
+}
+
+.panel-peredaagro>.panel-footer+.panel-collapse>.panel-body {
+  border-bottom-color: #d6e9c6;
+}
+/*--end panel-peredaagro --*/
 /*--start-banner--*/
 .banner-image-home {
   background: url(/res/img/02.jpg) no-repeat;
@@ -332,20 +356,25 @@ ul.nav li {
   min-height: 300px;
   background-size: 100%;
 }
+
 .banner-product {
   min-height: 300px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 .banner-product-sunflower {
   background-image: url(/res/img/sunflower-fields.jpg);
 }
+
 .banner-product-popcorn {
   background-image: url(/res/img/corn.jpg);
 }
+
 .banner-product-green-peas {
   background-image: url(/res/img/peas.jpg);
 }
+
 .banner-product-beans {
   background-image: url(/res/img/beans.jpg);
 }
@@ -370,7 +399,11 @@ ul.nav li {
   width: 100%;
   margin: 0 auto;
   font-weight: 600;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 
+   1px 1px #000000,
+   -1px -1px #000000,
+   -1px 1px #000000, 
+   1px -1px #000000;
 }
 
 .bttn a {
@@ -400,6 +433,10 @@ ul.nav li {
 /*--starts-care--*/
 .care {
   padding: 0.5em 0px 3em 0px;
+}
+
+.care-no-banner {
+  padding: 2.5em 0px 3em 0px;
 }
 
 .care-top {
@@ -489,6 +526,45 @@ ul.nav li {
   }
 }
 /*--end-care--*/
+
+/*--start beans--*/
+.beans-left-image {
+  min-height: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-shadow: 
+   1px 1px #000000,
+   -1px -1px #000000,
+   -1px 1px #000000, 
+   1px -1px #000000;
+  color: #FFF;
+  text-align: center;
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+.beans-dark-red-kidney {
+  background-image: url(/res/img/dark-red-kidney-beans.jpg);
+}
+
+.beans-light-red-kidney {
+  background-image: url(/res/img/light-red-kidney-beans.jpg);
+}
+
+.beans-cranberry {
+  background-image: url(/res/img/cranberry-beans.jpg);
+}
+
+.beans-black {
+  background-image: url(/res/img/black-beans.jpg);
+}
+
+.beans-mung {
+  background-image: url(/res/img/mung-beans.jpg);
+}
+
+/*--end beans--*/
+
 /*--start-news--*/
 .news-top {
   text-align: center;
@@ -625,7 +701,11 @@ ul.nav li {
   font-weight: 600;
   width: 81%;
   margin: 0 auto;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 
+   1px 1px #000000,
+   -1px -1px #000000,
+   -1px 1px #000000, 
+   1px -1px #000000;
 }
 
 .b-animate button {
@@ -644,7 +724,11 @@ ul.nav li {
   -o-transition: 0.5s all;
   outline: none;
   margin-top: 20%;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 
+   1px 1px #000000,
+   -1px -1px #000000,
+   -1px 1px #000000, 
+   1px -1px #000000;
 }
 
 .b-animate label {
@@ -783,23 +867,29 @@ img.port-pic {
   color: #fff;
 }
 
-.contact-left h4 {
+.contact-left-footer h4 {
   color: #fff;
+}
+.contact-left h4 {
   font-size: 1.2em;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.contact-left p {
+.contact-left-footer p {
   color: #fff;
+}
+.contact-left p {
   font-size: 15px;
   font-weight: 100;
   width: 70%;
   margin-bottom: 3px;
 }
 
-.contact-left p span {
+.contact-left-footer p span {
   color: #fff;
+}
+.contact-left p span {
   font-size: 14px;
   font-weight: 600;
   margin-right: 5px;
@@ -810,8 +900,10 @@ img.port-pic {
   text-decoration: none;
 }
 
-.contact-left p a:hover {
+.contact-left-footer p a:hover {
   color: #fff;
+}
+.contact-left p a:hover {
   text-decoration: none;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -875,8 +967,8 @@ img.port-pic {
 /*--end-contact--*/
 /*--start-map--*/
 .map iframe {
-  width: 50%;
-  height: 250px;
+  width: 100%;
+  height: 500px;
   float: left;
 }
 /*--end-map--*/
@@ -1921,6 +2013,9 @@ ul.tabs-menu li a img {
   .banner-export {
     min-height: 250px;
   }
+  .banner-product {
+    min-height: 250px;
+  }
   .banner-image-home {
     min-height: 550px;
   }
@@ -2173,6 +2268,9 @@ ul.tabs-menu li a img {
   .banner-export {
     min-height: 200px;
   }
+  .banner-product {
+    min-height: 200px;
+  }
   .banner-image-home {
     min-height: 400px;
   }
@@ -2352,6 +2450,9 @@ ul.tabs-menu li a img {
     min-height: 100px;
   }
   .banner-export {
+    min-height: 100px;
+  }
+  .banner-product {
     min-height: 100px;
   }
   .banner-image-home {
@@ -2664,6 +2765,9 @@ ul.tabs-menu li a img {
   .banner-export {
     min-height: 100px;
   }
+  .banner-product {
+    min-height: 100px;
+  }
   .banner-image-home {
     min-height: 280px;
   }
@@ -2912,6 +3016,9 @@ ul.tabs-menu li a img {
     min-height: 92px;
   }
   .banner-export {
+    min-height: 92px;
+  }
+  .banner-product {
     min-height: 92px;
   }
   .banner-image-home {
