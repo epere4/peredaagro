@@ -12,23 +12,19 @@
 <title>Pereda Agro: ${title}</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="alternate" hreflang="en" href="?lang=en" />
+<link rel="alternate" hreflang="es" href="?lang=es" />
+
 <link href="/res/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="/res/css/carousel.css" rel='stylesheet' type='text/css' />
 <link href="/res/css/style.css" rel='stylesheet' type='text/css' />
 <link
-  href='http://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic'
+  href='//fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic'
   rel='stylesheet' type='text/css' />
 
 </head>
-<body>
-
-  <!--       <div id="Banner"
-        style="display: none; text-align: center; position: relative; top: -25px; z-index: -1;">
-        <a href="#" target="_blank"><img
-          src="/res/banner/banner.jpg" height="119" /></a>
-      </div>
- -->
-
+<body lang="${selectedLang}">
   <!--start-header-->
   <div id="home" class="header navbar-wrapper">
     <div class="top-header">

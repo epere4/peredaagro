@@ -15,7 +15,7 @@
       </h1>
       <div id='pics' class="text-center">
         <iframe
-          src="https://www.flickr.com/photos/136030623@N08/albums/72157659436477532/player/"
+          src="https://www.flickr.com/photos/136030623@N08/sets/72157659436477532/player/"
           width="670" height="432" frameborder="0" allowfullscreen
           webkitallowfullscreen mozallowfullscreen oallowfullscreen
           msallowfullscreen></iframe>

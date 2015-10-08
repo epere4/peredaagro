@@ -93,18 +93,6 @@
   <!-- /.carousel -->
 
   <div>
-    <%--     <div>
-      <div>
-        <ul>
-          <li><a href="/products/sunflower"><img
-              src="/res/img/${selectedLang}/slide-1.jpg" alt="Pereda 1" /></a></li>
-          <li><a href="/company"><img
-              src="/res/img/${selectedLang}/slide-2.jpg" alt="Pereda 2" /></a></li>
-          <li><a href="/export"><img
-              src="/res/img/${selectedLang}/slide-3.jpg" alt="Pereda 3" /></a></li>
-        </ul>
-      </div>
-    </div> --%>
     <div class="care">
       <div class="container">
         <div class="care-top">
@@ -160,95 +148,31 @@
         </div>
       </div>
     </div>
-<%--     <div>
-      <spring:message code="index.featured.imgAltText"
-        var="featuredImgAltText" />
-      <div>
-        <p>
-          <strong><a href="/products/sunflower"><spring:message
-                code="index.featured1.linkText" />&nbsp;<img
-              src="/res/img/plus.png" alt="${featuredImgAltText}" /> </a></strong>
-        </p>
-      </div>
-      <div>
-        <p>
-          <strong><a
-            href="http://nuevacastilla.com.ar:8081/meteorologia/mb3.htm"
-            target="_blank"><spring:message
-                code="index.featured2.linkText" />&nbsp;<img
-              src="/res/img/plus.png" alt="${featuredImgAltText}" /> </a></strong>
-        </p>
-      </div>
-    </div> --%>
-<!--     <div>
-      <iframe width="100%" frameborder="0"
-        src="http://blogging.nitecruzr.net/2007/11/make-iframe-to-contain-another-blog-on.html"
-        height="400"></iframe>
-    </div> -->
-    <div class="news">
+    <div id="newsSection" class="news" style="display: none">
       <div class="container">
         <div class="news-top">
           <h3>
             <spring:message code="index.featured.title" />
           </h3>
         </div>
-        <div class="news-bottom">
-          <div class="col-md-6 news-bottom-left">
-            <div class="news-btm">
-              <a class="b-link-stripe b-animate-go  thickbox"> <img
-                class="port-pic img-responsive" src="/res/img/apple.jpg" />
-                <div class="b-wrapper">
-                  <h2 class="b-animate b-from-left b-from b-delay03 ">
-                    <span><spring:message
-                        code="index.featured.01.title" /></span>
-                    <button>
-                      <spring:message
-                        code="index.products.detailsButton" />
-                    </button>
-                  </h2>
-                </div>
-              </a>
+        <div id="newsItems" class="tumblr-blog">
+
+          <div id="newsPostTemplate" style="display: none">
+            <div class="panel panel-news">
+              <div class="panel-heading">
+                <h3 class="panel-title"></h3>
+              </div>
+              <div class="panel-body">
+                <div class="body-content"></div>
+                <div class="post-date"></div>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 news-bottom-left">
-            <div class="news-btm">
-              <a
-                href="http://nuevacastilla.com.ar:8081/meteorologia/mb3.htm"
-                target="_blank"
-                class="b-link-stripe b-animate-go  thickbox"> <img
-                class="port-pic img-responsive" src="/res/img/apple.jpg" />
-                <div class="b-wrapper">
-                  <h2 class="b-animate b-from-left b-from b-delay03 ">
-                    <span><spring:message
-                        code="index.featured.02.title" /></span>
-                    <button>
-                      <spring:message
-                        code="index.products.detailsButton" />
-                    </button>
-                  </h2>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-12 news-bottom-left">
-            <div class="news-btm">
-              <a href="/products/popcorn"
-                class="b-link-stripe b-animate-go  thickbox"> <img
-                class="port-pic img-responsive"
-                src="/res/img/fd-btm1.jpg" />
-                <div class="b-wrapper">
-                  <h2 class="b-animate b-from-left b-from b-delay03 ">
-                    <span><spring:message
-                        code="index.featured.03.title" /></span>
-                    <button>
-                      <spring:message
-                        code="index.products.detailsButton" />
-                    </button>
-                  </h2>
-                </div>
-              </a>
-            </div>
-          </div>
+
+        </div>
+        <div class="col-md-12">
+          <a id="linkToBlog" target="_blank"><spring:message
+              code="index.featured.seeMore" /></a>
         </div>
       </div>
     </div>
