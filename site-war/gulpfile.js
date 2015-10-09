@@ -28,7 +28,7 @@ gulp.task('copyBootstrapCss', ['minifyAppCss'] ,function() {
 });
 
 gulp.task('minifyAppCss', ['cleanCss'], function() {
-  return gulp.src([ 'src/main/resources/css/*.css' ])
+  return gulp.src([ 'src/main/webapp/WEB-INF/css/*.css' ])
     .pipe(sourcemaps.init())
     .pipe(minifyCss({processImport: false}))
     .pipe(sourcemaps.write('.'))
