@@ -27,7 +27,7 @@ gulp.task('copyBootstrapCss', ['minifyAppCss'] ,function() {
     .pipe(gulp.dest('./src/main/webapp/res/css'));
 });
 
-gulp.task('minifyAppCss', ['cleanCss'], function() {
+gulp.task('minifyAppCss', function() {
   return gulp.src([ 'src/main/webapp/WEB-INF/css/*.css' ])
     .pipe(sourcemaps.init())
     .pipe(minifyCss({processImport: false}))
@@ -55,7 +55,7 @@ gulp.task('browserify', [ 'cleanJs' ], function() {
 gulp.task('watch', function() {
   livereload.listen();
   gulp.watch('src/main/webapp/WEB-INF/js/main.js', ['browserify']);
-  gulp.watch('src/main/resources/css/*.css', ['minifyAppCss']);
+  gulp.watch('src/main/webapp/WEB-INF/css/*.css', ['minifyAppCss']);
 });
 
 gulp.task('dev', [  'copyBootstrapCss', 'copyBootstrapFonts', 'browserify', 'watch' ]);
