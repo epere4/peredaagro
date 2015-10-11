@@ -70,6 +70,7 @@ var arrangePostsInPage = function(posts) {
 
   var numberOfColumns = posts.length > 1 ? 2 : 1;
 
+  
   $.each(posts, function(key, post) {
     console.log("post", post);
     var template = $("#newsPostTemplate").clone();
@@ -80,7 +81,7 @@ var arrangePostsInPage = function(posts) {
     template.find(".panel-title").text(post.title);
 
     template.find(".body-content").html(post.body);
-    template.find(".post-date").text($.format.date(post.date, "yyyy-MM-dd - HH:mm "));
+    template.find(".post-date-content").text($.format.date(post.date, "yyyy-MM-dd - HH:mm"));
     template.find("img").addClass("img-responsive");
     template.show();
 

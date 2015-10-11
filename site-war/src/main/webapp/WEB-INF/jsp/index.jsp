@@ -152,7 +152,7 @@
       <div class="container">
         <div class="news-top">
           <h3>
-            <spring:message code="index.featured.title" />
+            <spring:message code="index.news.title" />
           </h3>
         </div>
         <div id="newsItems" class="tumblr-blog">
@@ -164,15 +164,23 @@
               </div>
               <div class="panel-body">
                 <div class="body-content"></div>
-                <div class="post-date"></div>
+                <div class="post-date">
+                  <span class="glyphicon glyphicon-time"
+                    aria-hidden="true"></span> <span class="sr-only">
+                    <spring:message code="index.news.date-title" />
+                  </span>
+                  <div class="post-date-content"></div>
+                </div>
+
               </div>
             </div>
           </div>
 
         </div>
-        <div class="col-md-12">
-          <a id="linkToBlog" target="_blank"><spring:message
-              code="index.featured.seeMore" /></a>
+        <div class="col-md-12 link-to-blog">
+          <a id="linkToBlog" target="_blank"><span
+            class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+          <spring:message code="index.news.seeMore" /></a>
         </div>
       </div>
     </div>

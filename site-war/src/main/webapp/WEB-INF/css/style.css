@@ -428,11 +428,8 @@ ul.nav li {
   width: 100%;
   margin: 0 auto;
   font-weight: 600;
-  text-shadow: 
-   1px 1px #000000,
-   -1px -1px #000000,
-   -1px 1px #000000, 
-   1px -1px #000000;
+  text-shadow: 1px 1px #000000, -1px -1px #000000, -1px 1px #000000, 1px
+    -1px #000000;
 }
 
 .bttn a {
@@ -561,11 +558,8 @@ ul.nav li {
   min-height: 50px;
   background-size: 100%;
   background-repeat: no-repeat;
-  text-shadow: 
-   1px 1px #000000,
-   -1px -1px #000000,
-   -1px 1px #000000, 
-   1px -1px #000000;
+  text-shadow: 1px 1px #000000, -1px -1px #000000, -1px 1px #000000, 1px
+    -1px #000000;
   color: #FFF;
   text-align: center;
   padding-top: 5%;
@@ -602,7 +596,7 @@ ul.nav li {
 .news-top h3 {
   color: #31353e;
   font-size: 1.8em;
-  margin: 0px;
+  margin-bottom: 20px;
   font-weight: 600;
 }
 
@@ -613,6 +607,25 @@ ul.nav li {
 .news-btm1 {
   text-align: center;
   padding: 30px 15px 0px 15px;
+}
+
+.post-date {
+  float: right;
+}
+
+.post-date .glyphicon {
+  top: 3px;
+}
+
+.post-date-content {
+  display: inline;
+  font-style: italic;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.link-to-blog {
+  text-align: center;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	Strip
@@ -730,11 +743,8 @@ ul.nav li {
   font-weight: 600;
   width: 81%;
   margin: 0 auto;
-  text-shadow: 
-   1px 1px #000000,
-   -1px -1px #000000,
-   -1px 1px #000000, 
-   1px -1px #000000;
+  text-shadow: 1px 1px #000000, -1px -1px #000000, -1px 1px #000000, 1px
+    -1px #000000;
 }
 
 .b-animate button {
@@ -753,11 +763,8 @@ ul.nav li {
   -o-transition: 0.5s all;
   outline: none;
   margin-top: 20%;
-  text-shadow: 
-   1px 1px #000000,
-   -1px -1px #000000,
-   -1px 1px #000000, 
-   1px -1px #000000;
+  text-shadow: 1px 1px #000000, -1px -1px #000000, -1px 1px #000000, 1px
+    -1px #000000;
 }
 
 .b-animate label {
@@ -899,6 +906,7 @@ img.port-pic {
 .contact-left-footer h4 {
   color: #fff;
 }
+
 .contact-left h4 {
   font-size: 1.2em;
   font-weight: 600;
@@ -908,6 +916,7 @@ img.port-pic {
 .contact-left-footer p {
   color: #fff;
 }
+
 .contact-left p {
   font-size: 15px;
   font-weight: 100;
@@ -918,6 +927,7 @@ img.port-pic {
 .contact-left-footer p span {
   color: #fff;
 }
+
 .contact-left p span {
   font-size: 14px;
   font-weight: 600;
@@ -932,6 +942,7 @@ img.port-pic {
 .contact-left-footer p a:hover {
   color: #fff;
 }
+
 .contact-left p a:hover {
   text-decoration: none;
   transition: 0.5s all;
