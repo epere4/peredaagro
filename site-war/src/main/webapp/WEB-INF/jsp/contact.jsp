@@ -18,12 +18,11 @@
         <p>
           <spring:message code="contact.p1" />
         </p>
-        <br />
-        <div class="container">
-          <div class="col-md-6 contact-left">
-            <%--             <h4>
-              <spring:message code="contact.contactUs" />
-            </h4> --%>
+        <div class="container contactSection">
+          <div class="col-md-6 contact-left contact-no-bottom">
+            <h4>
+              <spring:message code="contact.reachUs" />
+            </h4>
             <p>
               <span class="nowrap"><spring:message
                   code="contact.email" /></span><a
@@ -34,7 +33,7 @@
                 href="tel:+541143111461">+54 11 4311-1461</a>
             </p>
           </div>
-          <div class="col-md-6 contact-left">
+          <div class="col-md-6 contact-left contact-no-bottom">
             <h4>
               <spring:message code="contact.address.title" />
             </h4>
@@ -51,7 +50,7 @@
           </div>
         </div>
         <div class="container">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="panel panel-peredaagro">
               <div class="panel-heading">
                 <h3 class="panel-title">
@@ -70,7 +69,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="panel panel-peredaagro">
               <div class="panel-heading">
                 <h3 class="panel-title">

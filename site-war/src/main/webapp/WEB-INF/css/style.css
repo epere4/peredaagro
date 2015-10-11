@@ -828,6 +828,10 @@ img.port-pic {
   color: #fff;
 }
 
+.contactSection {
+  padding-bottom: 10px;
+}
+
 .contact-left-footer h4 {
   color: #fff;
 }
@@ -836,6 +840,7 @@ img.port-pic {
   font-size: 1.2em;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .contact-left-footer p {
@@ -934,7 +939,7 @@ img.port-pic {
 .map iframe {
   width: 100%;
   height: 500px;
-  float: left;
+  /* float: left; */
 }
 /*--end-map--*/
 /*--start-footer--*/
@@ -1841,9 +1846,6 @@ ul.tabs-menu li a img {
   .blog {
     padding: 5em 0px 4em 0px;
   }
-  .contact {
-    padding: 6em 0px 4em 0px;
-  }
   .error {
     padding: 8em 0px 7em 0px;
   }
@@ -2279,10 +2281,6 @@ ul.tabs-menu li a img {
   .fd-btn a {
     padding: 9px 2.2em;
   }
-  .contact-left {
-    width: 33.33%;
-    float: left;
-  }
   .news {
     padding: 1.2em 0px 3em 0px;
   }
@@ -2483,7 +2481,7 @@ ul.tabs-menu li a img {
     font-size: 1.5em;
   }
   .map iframe {
-    height: 200px;
+    height: 300px;
   }
   .contact-text input[type="text"] {
     width: 32.8%;
@@ -2800,7 +2798,7 @@ ul.tabs-menu li a img {
     height: 220px;
   }
   .map iframe {
-    height: 170px;
+    height: 230px;
   }
   .top-nav a {
     line-height: 30px;
