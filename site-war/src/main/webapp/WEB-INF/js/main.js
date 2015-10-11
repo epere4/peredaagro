@@ -5,8 +5,6 @@
 
 var bootstrap = require("bootstrap");
 
-var responsiveNav = require("./responsive-nav.js");
-
 // This add several functions to jquery itself.
 // Library comes from https://github.com/phstc/jquery-dateFormat
 require("./dateFormat.js");

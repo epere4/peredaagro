@@ -176,48 +176,48 @@ div#home {
   margin: 2px 0px 0px 13px;
 }
 
-ul.nav li {
-  display: inline-block;
-  margin: 0px 0px;
-}
-
-.menu {
-  /*width: 60%;*/
-  float: left;
-  margin-left: 3em;
-}
-
 .navgation {
   position: absolute;
   width: 77%;
   top: 83%;
   left: 12%;
   background: #31353e;
-  padding: 10px 10px;
 }
 
-.navgation .dropdown-menu {
+.navgation .dropdown-menu,
+.navgation .navbar {
   background: #31353e;
+  margin-bottom: 0px;
+}
+@media ( max-width : 767px) {
+  .navbar-nav .open .dropdown-menu {
+    background: #484A52;
+  }
+}
+
+.navgation .navbar-default {
+  border-color: transparent;
+}
+
+.navgation .navbar-toggle .icon-bar {
+  background-color: #F1D35B;
+}
+
+.navgation .navbar-toggle {
+  border-color: #F1D35B;
 }
 
 .menu li a {
-  display: block;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  text-align: center;
 }
 
-#nav .current a {
-  color: #fb326f;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+.navgation .nav>li>a:hover, .navgation .nav>li>a:focus, .navgation .nav .open>a,
+  .navgation .nav .open>a:hover, .navgation .nav .open>a:focus,
+  .navgation .dropdown-menu>li>a:focus, .navgation .dropdown-menu>li>a:hover
+  {
+  background-color: transparent;
 }
 
 .menu li a:hover, .menu li a.active {
@@ -233,86 +233,11 @@ ul.nav li {
   float: right;
 }
 
-.nav:before, .nav:after {
-  content: " ";
-  display: table;
+.navgation .nav>li>a {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.nav:after {
-  clear: both;
-}
-
-.nav ul {
-  list-style: none;
-}
-
-.nav>li>a {
-  margin: 0px 10px;
-  padding: 10px 4px;
-}
-
-@media screen and (max-width:800px) {
-  .active {
-    display: block;
-  }
-  .nav {
-    list-style: none;
-    width: 100%;
-    position: absolute;
-    right: 0px;
-    top: 50px;
-    z-index: 9999;
-  }
-  .menu li a span.messages {
-    text-align: center;
-    top: 15px;
-  }
-  .nav li ul {
-    width: 100%;
-  }
-  .menu ul {
-    margin: 0;
-  }
-  .nav>li.hover>ul {
-    width: 100%;
-  }
-  .nav>li {
-    float: none;
-    display: block;
-  }
-  .nav ul {
-    display: block;
-  }
-  .nav>li.hover>ul, .nav li li.hover ul {
-    position: static;
-  }
-  .nav li:first-child a {
-    border-top: none;
-    display: block;
-  }
-}
-
-@media ( max-width :768px) {
-  .toggleMenu img {
-    width: 95%;
-    margin-top: 2px;
-  }
-  .menu ul.nav {
-    margin-top: 0px;
-  }
-  ul.nav {
-    display: none;
-    background: #000;
-    border: 1px solid #fff;
-    padding: 7px 0px;
-  }
-  .menu ul.nav li {
-    display: block;
-    text-align: center;
-    margin: 1px;
-    padding: 5px;
-  }
-}
 /*--end-navgation--*/
 /*--start panel-peredaagro --*/
 .panel-peredaagro {
@@ -1919,14 +1844,15 @@ ul.tabs-menu li a img {
   .contact {
     padding: 6em 0px 4em 0px;
   }
-  .menu {
-    margin-left: 2em;
-  }
   .error {
     padding: 8em 0px 7em 0px;
   }
   .error-main h1 {
     font-size: 14em;
+  }
+  .navgation .nav>li>a {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -2033,16 +1959,13 @@ ul.tabs-menu li a img {
   div#home {
     padding: 2.2em 0px 4em 0px;
   }
-  .menu {
-    width: 70%;
-    margin-left: 0em;
-  }
   .search2 {
     width: 18%;
     margin: 5px 1em 0px 0em;
   }
-  .nav>li>a {
-    padding: 10px 0px;
+  .navgation .nav>li>a {
+    padding-left: 8px;
+    padding-right: 8px;
   }
   .search2 input[type="submit"] {
     margin: 2px 0px 0px 0px;
@@ -2335,11 +2258,6 @@ ul.tabs-menu li a img {
   }
   .news-btm {
     margin-bottom: 15px;
-  }
-  .menu {
-    width: 9%;
-    margin-left: 0em;
-    float: left;
   }
   .search2 {
     width: 25%;
@@ -3021,9 +2939,6 @@ ul.tabs-menu li a img {
   .search2 input[type="submit"] {
     margin: 1px 0px 0px -1px;
     background: url('/res/img/sprit-1.png') no-repeat -23px 0px;
-  }
-  .menu {
-    width: 10%;
   }
   .toggleMenu img {
     width: 100%;

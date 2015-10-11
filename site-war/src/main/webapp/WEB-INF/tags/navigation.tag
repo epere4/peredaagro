@@ -12,7 +12,6 @@
 <title>Pereda Agro: ${title}</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <link rel="alternate" hreflang="en" href="?lang=en" />
 <link rel="alternate" hreflang="es" href="?lang=es" />
 
@@ -45,52 +44,61 @@
         <div class="clearfix"></div>
       </div>
     </div>
+
     <div class="navgation">
-      <div class="menu">
-        <a class="toggleMenu" href="#"><img
-          src="/res/img/menu-icon.png" alt="" /> </a>
-        <ul class="nav" id="nav">
-          <li><a href="/"><spring:message code="index.title" /></a></li>
-          <li><a href="/company"><spring:message
-                code="company.title" /></a></li>
-          <li><a href="/export"><spring:message
-                code="export.title" /></a></li>
+      <nav class="menu navbar navbar-static">
+        <div class="container-fluid">
+          <div class="navbar-header ">
+            <button class="navbar-toggle collapsed" type="button"
+              data-toggle="collapse"
+              data-target=".bs-example-js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span> <span
+                class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div
+            class="collapse navbar-collapse bs-example-js-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/"><spring:message
+                    code="index.title" /></a></li>
+              <li><a href="/company"><spring:message
+                    code="company.title" /></a></li>
+              <li><a href="/export"><spring:message
+                    code="export.title" /></a></li>
 
-          <li class="dropdown"><a href="#" class="dropdown-toggle"
-            data-toggle="dropdown" role="button" aria-expanded="false"><spring:message
-                code="nav.menuProducts" /> <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
+              <li class="dropdown"><a href="#" id="productsMenu"
+                class="dropdown-toggle" data-toggle="dropdown"
+                role="button" aria-haspopup="true" aria-expanded="false"><spring:message
+                    code="nav.menuProducts" /> <span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="productsMenu"
+                  role="menu">
 
-              <li><a href="/products/sunflower"><spring:message
-                    code="product-sunflower.title" /></a></li>
+                  <li><a href="/products/sunflower"><spring:message
+                        code="product-sunflower.title" /></a></li>
 
-              <li><a href="/products/popcorn"><spring:message
-                    code="product-popcorn.title" /></a></li>
+                  <li><a href="/products/popcorn"><spring:message
+                        code="product-popcorn.title" /></a></li>
 
-              <li><a href="/products/green-peas"><spring:message
-                    code="product-green-peas.title" /></a></li>
+                  <li><a href="/products/green-peas"><spring:message
+                        code="product-green-peas.title" /></a></li>
 
-              <li><a href="/products/beans"><spring:message
-                    code="product-beans.title" /></a></li>
-            </ul></li>
-          <%--     <li class="dropdown"><a href="#" class="dropdown-toggle"
-            data-toggle="dropdown" role="button" aria-expanded="false">More
-              <span class="caret"></span>
-          </a>
-            <ul class="dropdown-menu" role="menu">
-              <li class="grs"><a href="/links"><spring:message
-                    code="links.title" /></a></li>
+                  <li><a href="/products/beans"><spring:message
+                        code="product-beans.title" /></a></li>
+                </ul></li>
+
               <li class="grs"><a href="/gallery"><spring:message
                     code="gallery.title" /></a></li>
-            </ul></li> --%>
-          <li class="grs"><a href="/gallery"><spring:message
-                code="gallery.title" /></a></li>
-          <li class="grs"><a href="/contact"><spring:message
-                code="contact.title" /></a></li>
-        </ul>
-      </div>
-      <div class="clearfix"></div>
+              <li class="grs"><a href="/contact"><spring:message
+                    code="contact.title" /></a></li>
+            </ul>
+          </div>
+          <!-- /.nav-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
     </div>
+    <!-- end navgation menu. -->
   </div>
 
   <!--end Menu-->
