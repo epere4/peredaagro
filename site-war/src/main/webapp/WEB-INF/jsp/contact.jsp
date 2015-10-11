@@ -65,7 +65,7 @@
               <div class="panel-body">
                 <div class="map">
                   <iframe frameborder="0" style="border: 0"
-                    src="https://maps.google.com.ar/maps?hl=es&amp;safe=off&amp;q=Mari+Lauquen+Buenos+Aires,+Argentina&amp;ie=UTF8&amp;hq=&amp;hnear=Mari+Lauquen,+Buenos+Aires&amp;gl=ar&amp;t=h&amp;ll=-36.064087,-62.975006&amp;spn=0.19427,0.411987&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe>
+                    src="https://maps.google.com.ar/maps?hl=${selectedLang}&amp;safe=off&amp;q=Mari+Lauquen+Buenos+Aires,+Argentina&amp;ie=UTF8&amp;hq=&amp;hnear=Mari+Lauquen,+Buenos+Aires&amp;gl=ar&amp;t=h&amp;ll=-36.064087,-62.975006&amp;spn=0.19427,0.411987&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@
               <div class="panel-body">
                 <div class="map">
                   <iframe frameborder="0" style="border: 0"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4072.3117173947526!2d-61.60348499999998!3d-34.833448999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDUwJzAwLjQiUyA2McKwMzYnMTIuNiJX!5e1!3m2!1ses-419!2sar!4v1428551046817"></iframe>
+                    src="https://maps.google.com.ar/maps?hl=${selectedLang}&amp;safe=off&amp;q=-34.833448999999995%2C-61.60348499999998&amp;ie=UTF8&amp;hq=&amp;gl=ar&amp;t=h&amp;ll=-34.833448999999995,-61.60348499999998&amp;spn=0.19427,0.411987&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
                 </div>
               </div>
             </div>
