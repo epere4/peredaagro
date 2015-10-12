@@ -2739,7 +2739,6 @@ ul.tabs-menu li a img {
   }
   .care-bottom-left p, .care-bottom-middle p, .care-bottom-right p {
     overflow: hidden;
-    height: 87px;
     padding: 10px;
   }
   .care-bottom-left img, .care-bottom-middle img, .care-bottom-right img {
@@ -2995,7 +2994,6 @@ ul.tabs-menu li a img {
     margin: 19px 0px 7px 0px;
   }
   .care-bottom-left p, .care-bottom-middle p, .care-bottom-right p {
-    height: 76px;
     line-height: 1.6em;
   }
   .view a {
