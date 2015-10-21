@@ -1,12 +1,16 @@
 package com.peredaagro.site.web.controllers;
 
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
 import com.google.common.base.Objects;
@@ -60,8 +64,12 @@ public class MainController {
     }
 
     @RequestMapping("/links")
-    public String getLinksPage() {
-        return "links";
+    public ModelAndView getLinksPage() {
+        Map<String, Object> model = new HashMap<String, Object>();
+        model.put("links", Arrays.asList("anuga", "sialparis", "gulfood",
+                "gpc", "asagir", "aacrea", "ipcva", "maizar", "minagri",
+                "sunflowernsa", "usda"));
+        return new ModelAndView("links", model);
     }
 
     @RequestMapping("/gallery")
@@ -106,104 +114,114 @@ public class MainController {
     }
 
     @RequestMapping({ "/eng/empr*", "/eng/empr/*" })
-    public RedirectView getCompanyEn() {
+    public RedirectView getOldCompanyEn() {
         return redirectPermanently("/company?lang=en");
     }
 
     @RequestMapping({ "/empr*", "/empr/*" })
-    public RedirectView getCompanyEs() {
+    public RedirectView getOldCompanyEs() {
         return redirectPermanently("/company?lang=es");
     }
 
     @RequestMapping({ "/eng/expo*", "/eng/expo/*" })
-    public RedirectView getExportEn() {
+    public RedirectView getOldExportEn() {
         return redirectPermanently("/export?lang=en");
     }
 
     @RequestMapping({ "/expo*", "/expo/*" })
-    public RedirectView getExportEs() {
+    public RedirectView getOldExportEs() {
         return redirectPermanently("/export?lang=es");
     }
 
     @RequestMapping({ "/eng/galf*", "/eng/galf/*" })
-    public RedirectView getGalleryEn() {
+    public RedirectView getOldGalleryEn() {
         return redirectPermanently("/gallery?lang=en");
     }
 
     @RequestMapping({ "/galf*", "/galf/*" })
-    public RedirectView getGalleryEs() {
+    public RedirectView getOldGalleryEs() {
         return redirectPermanently("/gallery?lang=es");
     }
 
     @RequestMapping({ "/eng/home*", "/eng/home/*", "/eng/index*" })
-    public RedirectView getHomeEn() {
+    public RedirectView getOldHomeEn() {
         return redirectPermanently("/?lang=en");
     }
 
     @RequestMapping({ "/home*", "/home/*", "/index*" })
-    public RedirectView getHomeEs() {
+    public RedirectView getOldHomeEs() {
         return redirectPermanently("/?lang=es");
     }
 
     @RequestMapping({ "/eng/produ/beans*", "/eng/produ/beans/*" })
-    public RedirectView getBeanEn() {
+    public RedirectView getOldBeanEn() {
         return redirectPermanently("/products/beans?lang=en");
     }
 
     @RequestMapping({ "/produ/porotos*", "/produ/porotos/*" })
-    public RedirectView getBeanEs() {
+    public RedirectView getOldBeanEs() {
         return redirectPermanently("/products/beans?lang=es");
     }
 
     @RequestMapping({ "/eng/produ/ceba*", "/eng/produ/ceba/*" })
-    public RedirectView getCebadaGoesToProductsPageEn() {
+    public RedirectView getOldCebadaGoesToProductsPageEn() {
         return redirectPermanently("/products?lang=en");
     }
 
     @RequestMapping({ "/produ/ceba*", "/produ/ceba/*" })
-    public RedirectView getCebadaGoesToProductsPageEs() {
+    public RedirectView getOldCebadaGoesToProductsPageEs() {
         return redirectPermanently("/products?lang=es");
     }
 
     @RequestMapping({ "/eng/produ/index*", "/eng/produ/index/*" })
-    public RedirectView getProductosGoesToSunflowerPageEn() {
+    public RedirectView getOldProductosGoesToSunflowerPageEn() {
         return redirectPermanently("/products/sunflower?lang=en");
     }
 
     @RequestMapping({ "/produ/productos*", "/produ/productos/*",
             "/produ/index*", "/produ/index/*" })
-    public RedirectView getProductosGoesToSunflowerPageEs() {
+    public RedirectView getOldProductosGoesToSunflowerPageEs() {
         return redirectPermanently("/products/sunflower?lang=es");
     }
 
     @RequestMapping({ "/eng/produ/pea*", "/eng/produ/pea/*" })
-    public RedirectView getBeansPageEn() {
+    public RedirectView getOldBeansPageEn() {
         return redirectPermanently("/products/green-peas?lang=en");
     }
 
     @RequestMapping({ "/produ/arveja*", "/produ/arveja/*" })
-    public RedirectView getBeansPageEs() {
+    public RedirectView getOldBeansPageEs() {
         return redirectPermanently("/products/green-peas?lang=es");
     }
 
     @RequestMapping({ "/eng/produ/pop*", "/eng/produ/pop/*" })
-    public RedirectView getPopcornPageEn() {
+    public RedirectView getOldPopcornPageEn() {
         return redirectPermanently("/products/popcorn?lang=en");
     }
 
     @RequestMapping({ "/produ/pop*", "/produ/pop/*" })
-    public RedirectView getPopcornPageEs() {
+    public RedirectView getOldPopcornPageEs() {
         return redirectPermanently("/products/popcorn?lang=es");
     }
 
     @RequestMapping({ "/eng/mapa*", "/eng/mapa/*" })
-    public RedirectView getMapRedirectsHomePageEn() {
+    public RedirectView getOldMapRedirectsHomePageEn() {
         return redirectPermanently("/?lang=en");
     }
 
     @RequestMapping({ "/mapa*", "/mapa/*" })
-    public RedirectView getMapaRedirectsHomePageEn() {
+    public RedirectView getOldMapaRedirectsHomePageEs() {
         return redirectPermanently("/?lang=es");
+    }
+
+    @RequestMapping({ "/eng/lnkn*", "/eng/lnkn/*" })
+    public RedirectView getOldLinksPageEn() {
+        return redirectPermanently("/links?lang=en");
+    }
+
+    @RequestMapping({ "/lnkn*", "/lnkn/*" })
+    public RedirectView getOldLinksPageEs() {
+        return redirectPermanently("/links?lang=es");
     }
 
     private RedirectView redirectPermanently(String destination) {

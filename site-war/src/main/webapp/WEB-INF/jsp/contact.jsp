@@ -19,7 +19,7 @@
           <spring:message code="contact.p1" />
         </p>
         <div class="container contactSection">
-          <div class="col-md-6 contact-left contact-no-bottom">
+          <div class="col-md-4 contact-left contact-no-bottom">
             <h4>
               <spring:message code="contact.reachUs" />
             </h4>
@@ -33,7 +33,7 @@
                 href="tel:+541143111461">+54 11 4311-1461</a>
             </p>
           </div>
-          <div class="col-md-6 contact-left contact-no-bottom">
+          <div class="col-md-4 contact-left contact-no-bottom">
             <h4>
               <spring:message code="contact.address.title" />
             </h4>
@@ -46,6 +46,21 @@
             </p>
             <p class="nowrap">
               <spring:message code="contact.address.line3" />
+            </p>
+          </div>
+          <div class="col-md-4 contact-left contact-no-bottom">
+            <h4>
+              <spring:message code="contact.weather-station.title" />
+            </h4>
+            <p>
+              <spring:message
+                code="contact.weather-station.beforeLinkText" />
+              <a target="_blank"
+                href="http://nuevacastilla.com.ar:8081/meteorologia/mb3.htm">
+                <spring:message code="contact.weather-station.linkText" />
+              </a>
+              <spring:message
+                code="contact.weather-station.afterLinkText" />
             </p>
           </div>
         </div>
@@ -62,9 +77,16 @@
                 </h3>
               </div>
               <div class="panel-body">
+                <div class="map-description">
+                  <p><spring:message
+                    code="contact.plantLocation.sunflower.p1" /></p>
+                  <p><spring:message
+                    code="contact.plantLocation.sunflower.p2" /></p>
+                </div>
                 <div class="map">
                   <iframe frameborder="0" style="border: 0"
-                    src="https://maps.google.com.ar/maps?hl=${selectedLang}&amp;safe=off&amp;q=Mari+Lauquen+Buenos+Aires,+Argentina&amp;ie=UTF8&amp;hq=&amp;hnear=Mari+Lauquen,+Buenos+Aires&amp;gl=ar&amp;t=h&amp;ll=-36.064087,-62.975006&amp;spn=0.19427,0.411987&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe>
+                    src="https://maps.google.com.ar/maps?hl=${selectedLang}&amp;safe=off&amp;q=-36.1290278,-62.9785659&amp;ie=UTF8&amp;hq=&amp;gl=ar&amp;t=h&amp;ll=-36.1290278,-62.9785659&amp;spn=0.19427,0.411987&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
+
                 </div>
               </div>
             </div>
@@ -81,6 +103,12 @@
                 </h3>
               </div>
               <div class="panel-body">
+                <div class="map-description">
+                  <p><spring:message
+                    code="contact.plantLocation.popcorn.p1" /></p>
+                  <p><spring:message
+                    code="contact.plantLocation.popcorn.p2" /></p>
+                </div>
                 <div class="map">
                   <iframe frameborder="0" style="border: 0"
                     src="https://maps.google.com.ar/maps?hl=${selectedLang}&amp;safe=off&amp;q=-34.833448999999995%2C-61.60348499999998&amp;ie=UTF8&amp;hq=&amp;gl=ar&amp;t=h&amp;ll=-34.833448999999995,-61.60348499999998&amp;spn=0.19427,0.411987&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>

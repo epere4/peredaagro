@@ -62,8 +62,6 @@
             <ul class="nav navbar-nav">
               <li><a href="/"><spring:message
                     code="index.title" /></a></li>
-              <li><a href="/company"><spring:message
-                    code="company.title" /></a></li>
               <li><a href="/export"><spring:message
                     code="export.title" /></a></li>
 
@@ -87,8 +85,20 @@
                         code="product-beans.title" /></a></li>
                 </ul></li>
 
-              <li class="grs"><a href="/gallery"><spring:message
-                    code="gallery.title" /></a></li>
+              <li class="dropdown"><a href="#" id="moreMenu"
+                class="dropdown-toggle" data-toggle="dropdown"
+                role="button" aria-haspopup="true" aria-expanded="false"><spring:message
+                    code="nav.menuAbout" /> <span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="moreMenu"
+                  role="menu">
+                  <li><a href="/company"><spring:message
+                        code="company.title" /></a></li>
+                  <li class="grs"><a href="/gallery"><spring:message
+                        code="gallery.title" /></a></li>
+                  <li class="grs"><a href="/links"><spring:message
+                        code="links.title" /></a></li>
+                </ul></li>
+
               <li class="grs"><a href="/contact"><spring:message
                     code="contact.title" /></a></li>
             </ul>
