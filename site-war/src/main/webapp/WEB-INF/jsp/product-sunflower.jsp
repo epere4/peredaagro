@@ -37,49 +37,58 @@
       <img src="/res/img/${selectedLang}/girasol-semilla.jpg" />
     </div> --%>
     <div class="container">
-      <div class="col-md-4">
-        <div class="panel panel-peredaagro">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-              <spring:message code="product-sunflower.conversion.title" />
-            </h3>
-          </div>
-          <div class="panel-body">
-            <div>
-              <img src="/res/img/sunflower-seed.jpg" />
-            </div>
-            <div class="nowrap">
-              <spring:message code="product-sunflower.conversion.text" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="panel panel-peredaagro">
+      <div class="col-md-4 left">
+        <div class="panel panel-peredaagro sunflower-panel">
           <div class="panel-heading">
             <h3 class="panel-title">
               <spring:message code="product-sunflower.packaging.title" />
             </h3>
           </div>
           <div class="panel-body">
-            <spring:message code="product-sunflower.packaging.text" />
+            <div class="text-center">
+              <img src="/res/img/bag_sunflower.jpg" />
+            </div>
+            <div class="packaging-text">
+              <spring:message code="product-sunflower.packaging.text" />
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="panel panel-peredaagro">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-              <spring:message code="product-sunflower.size.title" />
-            </h3>
+      <div class="col-md-8 right">
+        <div>
+          <div class="panel panel-peredaagro sunflower-panel">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <spring:message
+                  code="product-sunflower.conversion.title" />
+              </h3>
+            </div>
+            <div class="panel-body">
+              <div class="text-center">
+                <img src="/res/img/sunflower-seed.jpg" />
+              </div>
+              <div class="nowrap">
+                <spring:message code="product-sunflower.conversion.text" />
+              </div>
+            </div>
           </div>
-          <div class="panel-body">
-            <ul>
-              <li>22/64 (8,73 mm)</li>
-              <li>20/64 (7,94 mm)</li>
-              <li>16/64 (6,35 mm)</li>
-            </ul>
+        </div>
+
+
+        <div>
+          <div class="panel panel-peredaagro sunflower-panel">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <spring:message code="product-sunflower.size.title" />
+              </h3>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>22/64 up (> 8,73 mm)</li>
+                <li>20/64 (7,94 mm)</li>
+                <li>16-18/64 (6,35 mm)</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

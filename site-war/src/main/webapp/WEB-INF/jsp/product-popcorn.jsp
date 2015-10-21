@@ -29,9 +29,6 @@
           <spring:message code="product-popcorn.p4" />
         </p>
         <br />
-        <%--         <p>
-          <spring:message code="product-popcorn.p5" />
-        </p> --%>
         <%--       <br />
       <p>
         <spring:message code="product.downloadCatalog.imgAltText"
@@ -44,56 +41,88 @@
             border="0" /> </a></strong>
       </p> --%>
         <div class="container">
-          <div class="col-md-3">
-            <div class="panel panel-peredaagro">
+          <div class="col-md-4 left">
+            <div class="panel panel-peredaagro popcorn-panel">
               <div class="panel-heading">
                 <h3 class="panel-title">
                   <spring:message code="product-popcorn.packaging.title" />
                 </h3>
               </div>
               <div class="panel-body">
-                <spring:message code="product-popcorn.packaging.text" />
+                <div class="text-center">
+                  <img src="/res/img/bag_popcorn.jpg" />
+                </div>
+                <div class="packaging-text">
+                  <spring:message code="product-popcorn.packaging.text" />
+                  <ul>
+                    <li>20 kg.</li>
+                    <li>25 kg.</li>
+                    <li>50 lbs.</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="panel panel-peredaagro">
-              <div class="panel-heading">
-                <h3 class="panel-title">
-                  <spring:message code="product-popcorn.size.title" />
-                </h3>
-              </div>
-              <div class="panel-body">
-                <spring:message code="product-popcorn.size.text" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="panel panel-peredaagro">
-              <div class="panel-heading">
-                <h3 class="panel-title">
-                  <spring:message code="product-popcorn.explosion.title" />
-                </h3>
-              </div>
-              <div class="panel-body">
-                <spring:message code="product-popcorn.explosion.text" />
+          <div class="col-md-8 right">
+            <div>
+              <div class="panel panel-peredaagro popcorn-panel">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <spring:message code="product-popcorn.size.title" />
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  <p>
+                    <spring:message code="product-popcorn.size.text" />
+                  </p>
+                  <p class="text-info small">
+                    <span class="glyphicon glyphicon-info-sign"
+                      aria-hidden="true"></span>
+                    <spring:message code="product-popcorn.pSize" />
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="panel panel-peredaagro">
-              <div class="panel-heading">
-                <h3 class="panel-title">
-                  <spring:message code="product-popcorn.expansion.title" />
-                </h3>
+            <div>
+              <div class="panel panel-peredaagro popcorn-panel">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <spring:message
+                      code="product-popcorn.explosion.title" />
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  <spring:message code="product-popcorn.explosion.text" />
+                  <p class="text-info small">
+                    <span class="glyphicon glyphicon-info-sign"
+                      aria-hidden="true"></span>
+                    <spring:message code="product-popcorn.pExplosion" />
+                  </p>
+                </div>
               </div>
-              <div class="panel-body">
-                <ul>
-                  <li>38/40</li>
-                  <li>40/42</li>
-                  <li>42/44</li>
-                  <li>44/46</li>
-                </ul>
+            </div>
+            <div>
+              <div class="panel panel-peredaagro popcorn-panel">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <spring:message
+                      code="product-popcorn.expansion.title" />
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>38/40</li>
+                    <li>40/42</li>
+                    <li>42/44</li>
+                    <li>44/46</li>
+                  </ul>
+
+                  <p class="text-info small">
+                    <span class="glyphicon glyphicon-info-sign"
+                      aria-hidden="true"></span>
+                    <spring:message code="product-popcorn.pExpansion" />
+                  </p>
+                </div>
               </div>
             </div>
           </div>

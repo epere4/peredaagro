@@ -106,6 +106,10 @@
           <p>
             <spring:message code="index.p2" />
           </p>
+          <br />
+          <p>
+            <spring:message code="index.p3" />
+          </p>
         </div>
         <div class="care-bottom">
           <div class="col-md-4 c-bottom">
@@ -180,7 +184,7 @@
         <div class="col-md-12 link-to-blog">
           <a id="linkToBlog" target="_blank"><span
             class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
-          <spring:message code="index.news.seeMore" /></a>
+            <spring:message code="index.news.seeMore" /></a>
         </div>
       </div>
     </div>

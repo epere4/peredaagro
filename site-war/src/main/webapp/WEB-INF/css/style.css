@@ -262,7 +262,44 @@ div#home {
 .panel-peredaagro>.panel-footer+.panel-collapse>.panel-body {
   border-bottom-color: #d6e9c6;
 }
+
 /*--end panel-peredaagro --*/
+/* start sunflower-panel */
+@media ( min-width : 992px) {
+  .left .sunflower-panel .panel-body {
+    min-height: 410px;
+  }
+  .right .sunflower-panel .panel-body {
+    min-height: 153px;
+  }
+}
+
+.sunflower-panel img {
+  max-height: 300px;
+}
+
+.sunflower-panel .packaging-text {
+  padding-top: 10px;
+}
+/* end sunflower-panel */
+/* start popcorn-panel */
+@media ( min-width : 992px) {
+  .left .popcorn-panel .panel-body {
+    min-height: 442px;
+  }
+  .right .popcorn-panel .panel-body {
+    /* min-height: 96px; */
+  }
+}
+
+.popcorn-panel img {
+  max-height: 300px;
+}
+
+.popcorn-panel .packaging-text {
+  padding-top: 10px;
+}
+/* end popcorn-panel */
 /*--start panel-news --*/
 .panel-news {
   border-color: rgba(134, 134, 134, 0.29);
@@ -1967,7 +2004,7 @@ ul.tabs-menu li a img {
     margin-bottom: 2em;
   }
   div#home {
-    padding: 2.2em 0px 4em 0px;
+    padding: 1.2em 0px 2em 0px;
   }
   .search2 {
     width: 18%;
@@ -2038,7 +2075,7 @@ ul.tabs-menu li a img {
     width: 83%;
     top: 81%;
     left: 8.5%;
-    padding: 10px 0px;
+    padding: 1px 0px;
   }
   .col-md-2.cmts-main-left {
     width: 20%;
@@ -2357,7 +2394,7 @@ ul.tabs-menu li a img {
   }
   .navgation {
     top: 85%;
-    padding: 5px 0px;
+    padding: 0px 0px;
   }
   .contact-bottom-top {
     margin-top: 1.6em;
@@ -2423,7 +2460,7 @@ ul.tabs-menu li a img {
     min-height: 350px;
   }
   div#home {
-    padding: 1.3em 0px 3.5em 0px;
+    padding: 1.3em 0px 2.5em 0px;
   }
   .navgation {
     top: 82%;
@@ -2704,7 +2741,7 @@ ul.tabs-menu li a img {
   .navgation {
     top: 78%;
     left: 8.5%;
-    padding: 6px 0px;
+    padding: 0px 0px;
   }
   .search2 {
     width: 33%;
@@ -2912,7 +2949,7 @@ ul.tabs-menu li a img {
     padding: 5px 0px;
   }
   .navgation {
-    top: 79%;
+    top: 70%;
     left: 7.5%;
     width: 86%;
   }
@@ -2957,7 +2994,7 @@ ul.tabs-menu li a img {
     font-size: 1.2em;
   }
   div#home {
-    padding: 0.6em 0px 1.5em 0px;
+    padding: 0.6em 0px 2.5em 0px;
   }
   .top-nav ul {
     margin-top: 15px;
