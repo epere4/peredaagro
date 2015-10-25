@@ -180,13 +180,14 @@ public class MainController {
         return redirectPermanently("/products?lang=es");
     }
 
-    @RequestMapping({ "/eng/produ/index*", "/eng/produ/index/*" })
+    @RequestMapping({ "/eng/produ*", "/eng/produ/*", "/eng/produ/index*",
+            "/eng/produ/index/*" })
     public RedirectView getOldProductosGoesToSunflowerPageEn() {
         return redirectPermanently("/products/sunflower?lang=en");
     }
 
-    @RequestMapping({ "/produ/productos*", "/produ/productos/*",
-            "/produ/index*", "/produ/index/*" })
+    @RequestMapping({ "/produ*", "/produ/*", "/produ/productos*",
+            "/produ/productos/*", "/produ/index*", "/produ/index/*" })
     public RedirectView getOldProductosGoesToSunflowerPageEs() {
         return redirectPermanently("/products/sunflower?lang=es");
     }
