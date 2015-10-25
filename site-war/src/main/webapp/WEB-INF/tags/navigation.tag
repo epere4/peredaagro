@@ -115,29 +115,6 @@
   <div>
     <jsp:doBody />
   </div>
-  <%--   <div id="socig">
-    <h3>
-      <spring:message code="nav.shareOn" />
-      <a
-        href="http://www.facebook.com/sharer.php?u=http://www.peredaagro.com.ar/"
-        target="_blank"><img src="../rsrc/facebook.png" /></a><a
-        href="http://twitter.com/home?status=http://www.peredaagro.com.ar/"
-        target="_blank"><img src="../rsrc/twitter.png"
-        style="margin-left: 10px;" /></a><a
-        href="https://plus.google.com/share?url=http://www.peredaagro.com.ar/"
-        target="_blank" style="text-decoration: none;"><img
-        src="../rsrc/google.png" style="margin-left: 10px;" /></a>
-    </h3>
-  </div>
-  <div id="footg">
-    <h3>
-      <spring:message code="nav.copyrightMessage" />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-        href="/"><spring:message code="index.title" /></a> | <a
-        href="/sitemap"><spring:message code="sitemap.title" /></a> | <a
-        href="/contact"><spring:message code="contact.title" /></a>
-    </h3>
-  </div> --%>
   <div class="contact">
     <div class="container">
       <div class="contact-main">
@@ -187,8 +164,18 @@
         </div>
         <div class="clearfix"></div>
         <div id="footer">
-          <div class="container">
-            <p class="text-muted initialism"><b>&copy; 2012 - ${currentYear} Pereda Agro S.A.</b></p>
+          <div class="container text-right text-muted small">
+            <p>
+              <b>&copy; 2012 - ${currentYear} Pereda Agro S.A.</b>
+            </p>
+            <p>
+              <spring:message code="nav.credits.created-by" /> <a href="https://www.linkedin.com/in/epere4"
+                target="_blank">Edu</a> &amp; <a
+                href="https://www.linkedin.com/in/liliananuno"
+                target="_blank">Lili</a> - <spring:message code="nav.credits.design" /> <a
+                href="https://p.w3layouts.com/demos/former/web/index.html"
+                target="_blank">w3layouts</a>.
+            </p>
           </div>
         </div>
       </div>
