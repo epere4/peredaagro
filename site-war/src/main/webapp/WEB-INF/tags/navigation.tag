@@ -186,6 +186,11 @@
           </ul>
         </div>
         <div class="clearfix"></div>
+        <div id="footer">
+          <div class="container">
+            <p class="text-muted initialism"><b>&copy; 2012 - ${currentYear} Pereda Agro S.A.</b></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

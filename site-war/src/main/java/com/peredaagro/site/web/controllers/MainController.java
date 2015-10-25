@@ -1,6 +1,7 @@
 package com.peredaagro.site.web.controllers;
 
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -101,6 +102,12 @@ public class MainController {
                 "otherLang",
                 LOCALE_SPANISH.equals(selectedLang) ? LOCALE_ENGLISH
                         .getLanguage() : LOCALE_SPANISH.getLanguage());
+    }
+
+    @ModelAttribute
+    public void getCurrentYear(Model model) {
+        int year = Calendar.getInstance().get(Calendar.YEAR);
+        model.addAttribute("currentYear", year);
     }
 
     @RequestMapping({ "/eng/cntc*", "/eng/cntc/*" })
