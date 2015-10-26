@@ -289,6 +289,7 @@ div#home {
   }
   .right .popcorn-panel .panel-body {
     /* min-height: 96px; */
+    
   }
 }
 
@@ -329,6 +330,29 @@ div#home {
   border-bottom-color: rgba(134, 134, 134, 0.29);
 }
 /*--end panel-news --*/
+
+/*--start history --*/
+.history-frames iframe {
+  height: 500px;
+  width: 100%;
+}
+
+@media ( max-width :768px) {
+  .history-frames iframe {
+    height: 600px;
+    width: 100%;
+  }
+}
+
+@media ( max-width :680px) {
+  .history-frames iframe {
+    height: 800px;
+    width: 100%;
+  }
+}
+
+/*--end history --*/
+
 /*--start-banner--*/
 .banner-image-home {
   background: url(/res/img/02.jpg) no-repeat;

@@ -93,6 +93,10 @@
                   role="menu">
                   <li><a href="/company"><spring:message
                         code="company.title" /></a></li>
+<%--                  <li><a href="/history"><spring:message
+                        code="history.title" /></a></li> --%>
+                 <li><a href="/events"><spring:message
+                        code="events.title" /></a></li>
                   <li class="grs"><a href="/gallery"><spring:message
                         code="gallery.title" /></a></li>
                   <li class="grs"><a href="/links"><spring:message

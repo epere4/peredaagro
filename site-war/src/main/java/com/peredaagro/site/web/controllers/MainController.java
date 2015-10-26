@@ -32,6 +32,18 @@ public class MainController {
         return "company";
     }
 
+    @RequestMapping("/events")
+    public ModelAndView getEventsPage() {
+        Map<String, Object> model = new HashMap<String, Object>();
+        model.put("links", Arrays.asList("anuga", "sialparis", "gulfood"));
+        return new ModelAndView("events", model);
+    }
+
+    @RequestMapping("/history")
+    public String getHistoryPage() {
+        return "history";
+    }
+
     @RequestMapping("/products")
     public String getProductsPage() {
         // This will be a 302 - Temporary redirect. In case we want to introduce
