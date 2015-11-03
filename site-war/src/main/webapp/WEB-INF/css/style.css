@@ -285,11 +285,10 @@ div#home {
 /* start popcorn-panel */
 @media ( min-width : 992px) {
   .left .popcorn-panel .panel-body {
-    min-height: 442px;
+    min-height: 493px;
   }
   .right .popcorn-panel .panel-body {
-    /* min-height: 96px; */
-    
+    min-height: 107px;
   }
 }
 

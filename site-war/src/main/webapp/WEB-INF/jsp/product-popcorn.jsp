@@ -55,6 +55,8 @@
                 <div class="packaging-text">
                   <spring:message code="product-popcorn.packaging.text" />
                   <ul>
+                    <li>5 kg.</li>
+                    <li>10 kg.</li>
                     <li>20 kg.</li>
                     <li>25 kg.</li>
                     <li>50 lbs.</li>
