@@ -12,6 +12,7 @@
 <title>Pereda Agro: ${title}</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="alternate" hreflang="x-default" href="" />
 <link rel="alternate" hreflang="en" href="?lang=en" />
 <link rel="alternate" hreflang="es" href="?lang=es" />
 
