@@ -12,9 +12,9 @@
 <title>Pereda Agro: ${title}</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="alternate" hreflang="x-default" href="" />
-<link rel="alternate" hreflang="en" href="?lang=en" />
-<link rel="alternate" hreflang="es" href="?lang=es" />
+<link rel="alternate" hreflang="x-default" href="${requestPath}" />
+<link rel="alternate" hreflang="en" href="${requestPath}?lang=en" />
+<link rel="alternate" hreflang="es" href="${requestPath}?lang=es" />
 
 <link href="/res/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="/res/css/carousel.css" rel='stylesheet' type='text/css' />

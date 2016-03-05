@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -120,6 +122,11 @@ public class MainController {
     public void getCurrentYear(Model model) {
         int year = Calendar.getInstance().get(Calendar.YEAR);
         model.addAttribute("currentYear", year);
+    }
+
+    @ModelAttribute
+    public void populateCurrentPath(Model model, HttpServletRequest request) {
+        model.addAttribute("requestPath", request.getRequestURI());
     }
 
     @RequestMapping({ "/eng/cntc*", "/eng/cntc/*" })
