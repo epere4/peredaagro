@@ -3,16 +3,55 @@ Pereda Agro
 
 Source code for peredaagro.com.ar.
 
-# Run locally from the site-war folder with:
+It uses App Engine.
 
-```mvn appengine:devserver -P gae```
+See the [Google App Engine standard environment documentation][ae-docs] for more
+detailed instructions.
 
-# For deploying in Google App Engine:
+[ae-docs]: https://cloud.google.com/appengine/docs/java/
 
-From the root folder of the project:
 
-```mvn clean install```
+* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Maven](https://maven.apache.org/download.cgi) (at least 3.5)
+* [Google Cloud SDK](https://cloud.google.com/sdk/) (aka gcloud)
 
-Then go to the site-ear folder and run:
+## Setup
 
-```mvn appengine:update -P gae```
+    gcloud init
+    gcloud auth application-default login
+
+## Maven
+### Running locally
+
+    mvn appengine:run
+
+### Deploying
+
+    mvn appengine:deploy
+
+## Testing
+
+    mvn verify
+
+As you add / modify the source code (`src/main/java/...`) it's very useful to add
+[unit testing](https://cloud.google.com/appengine/docs/java/tools/localunittesting)
+to (`src/main/test/...`).  The following resources are quite useful:
+
+* [Junit4](http://junit.org/junit4/)
+* [Mockito](http://mockito.org/)
+* [Truth](http://google.github.io/truth/)
+
+## Updating to latest Artifacts
+
+An easy way to keep your projects up to date is to use the maven [Versions plug in][versions-plugin].
+
+    mvn versions:display-plugin-updates
+    mvn versions:display-dependency-updates
+    mvn versions:use-latest-versions
+
+Note - Be careful when changing `javax.servlet` as App Engine Standard uses 3.1 for Java 8, and 2.5
+for Java 7.
+
+Our usual process is to test, update the versions, then test again before committing back.
+
+[versions-plugin]: http://www.mojohaus.org/versions-maven-plugin/
