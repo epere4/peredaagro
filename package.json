@@ -31,6 +31,9 @@
       ]
     }
   },
+  "resolutions": {
+    "graceful-fs": "^4.2.9"
+  },
   "devDependencies": {
     "browserify": "^10.1.3",
     "browserify-shim": "^3.8.6",
@@ -46,6 +49,6 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.4",
-    "jquery": "^2.1.4"
+    "jquery": "^3.6.0"
   }
 }

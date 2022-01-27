@@ -13,6 +13,7 @@
 *.properties text
 *.js         text
 *.sql        text
+*.svg        text
 *.xml        text
 *.tag        text
 MANIFEST.MF  text
