@@ -56,7 +56,7 @@
               <spring:message
                 code="contact.weather-station.beforeLinkText" />
               <a target="_blank"
-                href="http://nuevacastilla.com.ar:8081/meteorologia/mb3.htm">
+                href="http://nuevacastilla.com.ar/meteorologia/mb3.htm">
                 <spring:message code="contact.weather-station.linkText" />
               </a>
               <spring:message
