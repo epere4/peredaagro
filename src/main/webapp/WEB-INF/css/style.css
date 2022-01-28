@@ -385,14 +385,6 @@ div#home {
   background-image: url(/res/img/corn.jpg);
 }
 
-.banner-product-green-peas {
-  background-image: url(/res/img/peas.jpg);
-}
-
-.banner-product-beans {
-  background-image: url(/res/img/beans.jpg);
-}
-
 .bnr-text {
   text-align: center;
   margin-top: 20%;
@@ -537,41 +529,6 @@ div#home {
   }
 }
 /*--end-care--*/
-
-/*--start beans--*/
-.beans-left-image {
-  min-height: 50px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-shadow: 1px 1px #000000, -1px -1px #000000, -1px 1px #000000, 1px
-    -1px #000000;
-  color: #FFF;
-  text-align: center;
-  padding-top: 5%;
-  font-weight: bold;
-}
-
-.beans-dark-red-kidney {
-  background-image: url(/res/img/dark-red-kidney-beans.jpg);
-}
-
-.beans-light-red-kidney {
-  background-image: url(/res/img/light-red-kidney-beans.jpg);
-}
-
-.beans-cranberry {
-  background-image: url(/res/img/cranberry-beans.jpg);
-}
-
-.beans-black {
-  background-image: url(/res/img/black-beans.jpg);
-}
-
-.beans-mung {
-  background-image: url(/res/img/mung-beans.jpg);
-}
-
-/*--end beans--*/
 
 /*--start-news--*/
 .news-top {

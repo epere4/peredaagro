@@ -64,13 +64,13 @@ public class MainController {
     }
 
     @RequestMapping("/products/green-peas")
-    public String getProductGreenPeasPage() {
-        return "product-green-peas";
+    public RedirectView getDeletedProductGreenPeasPage() {
+        return redirectPermanently("/");
     }
 
     @RequestMapping("/products/beans")
-    public String getProductBeansPage() {
-        return "product-beans";
+    public RedirectView getDeletedProductBeansPage() {
+        return redirectPermanently("/");
     }
 
     @RequestMapping("/export")
@@ -212,12 +212,12 @@ public class MainController {
     }
 
     @RequestMapping({ "/eng/produ/pea*", "/eng/produ/pea/*" })
-    public RedirectView getOldBeansPageEn() {
+    public RedirectView getOldPeasPageEn() {
         return redirectPermanently("/products/green-peas?lang=en");
     }
 
     @RequestMapping({ "/produ/arveja*", "/produ/arveja/*" })
-    public RedirectView getOldBeansPageEs() {
+    public RedirectView getOldPeasPageEs() {
         return redirectPermanently("/products/green-peas?lang=es");
     }
 

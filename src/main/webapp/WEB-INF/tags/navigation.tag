@@ -78,12 +78,6 @@
 
                   <li><a href="/products/popcorn"><spring:message
                         code="product-popcorn.title" /></a></li>
-
-                  <li><a href="/products/green-peas"><spring:message
-                        code="product-green-peas.title" /></a></li>
-
-                  <li><a href="/products/beans"><spring:message
-                        code="product-beans.title" /></a></li>
                 </ul></li>
 
               <li class="dropdown"><a href="#" id="moreMenu"
@@ -207,4 +201,3 @@
     </script>
 </body>
 </html>
-

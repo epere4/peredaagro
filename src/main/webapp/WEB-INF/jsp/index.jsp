@@ -23,8 +23,6 @@
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
@@ -35,7 +33,6 @@
             <h1>
               <a href="/products/sunflower"><spring:message
                   code="product-sunflower.title" /></a>
-              <%--  <spring:message code="index.carousel.01.caption" /> --%>
             </h1>
           </div>
         </div>
@@ -48,33 +45,6 @@
             <h1>
               <a href="/products/popcorn"><spring:message
                   code="product-popcorn.title" /></a>
-              <%-- <spring:message code="index.carousel.02.caption" /> --%>
-            </h1>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img class="third-slide" src="/res/img/peas.jpg"
-          alt="Third slide">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>
-              <a href="/products/green-peas"><spring:message
-                  code="product-green-peas.title" /></a>
-              <%-- <spring:message code="index.carousel.03.caption" /> --%>
-            </h1>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img class="fourth-slide" src="/res/img/beans.jpg"
-          alt="Fourth slide">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>
-              <a href="/products/beans"><spring:message
-                  code="product-beans.title" /></a>
-              <%-- <spring:message code="index.carousel.04.caption" /> --%>
             </h1>
           </div>
         </div>
@@ -105,10 +75,6 @@
           <br />
           <p>
             <spring:message code="index.p2" />
-          </p>
-          <br />
-          <p>
-            <spring:message code="index.p3" />
           </p>
         </div>
         <div class="care-bottom">
