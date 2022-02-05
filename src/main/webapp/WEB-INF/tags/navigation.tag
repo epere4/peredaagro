@@ -126,10 +126,6 @@
                 code="contact.email" /></span><a
               href="mailto:info@peredaagro.com.ar">info@peredaagro.com.ar</a>
           </p>
-          <p>
-            <span><spring:message code="contact.phoneFax" /></span> <a
-              href="tel:+541143111461">+54 11 4311-1461</a>
-          </p>
         </div>
         <div class="col-md-4 contact-left contact-left-footer">
           <h4>
