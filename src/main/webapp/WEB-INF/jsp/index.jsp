@@ -148,7 +148,7 @@
 
         </div>
         <div class="col-md-12 link-to-blog">
-          <a id="linkToBlog" target="_blank"><span
+          <a id="linkToBlog" target="_blank" rel="noopener noreferrer"><span
             class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
             <spring:message code="index.news.seeMore" /></a>
         </div>

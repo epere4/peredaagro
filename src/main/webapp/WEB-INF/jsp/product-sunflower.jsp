@@ -28,7 +28,7 @@
         var="downloadCatalogImgAltText" />
       <strong><a
         href="/res/pdf/pereda-catalog-${selectedLang}.pdf"
-        target="_blank"><spring:message
+        target="_blank" rel="noopener noreferrer"><spring:message
             code="product.downloadCatalog.LinkText" />&nbsp;<img
           src="/res/img/plus.png" alt="${downloadCatalogImgAltText}"
           border="0" /> </a></strong>

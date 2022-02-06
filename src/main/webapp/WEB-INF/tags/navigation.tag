@@ -178,10 +178,10 @@
           <ul>
             <li><a
               href="http://www.facebook.com/sharer.php?u=http://www.peredaagro.com.ar/"
-              target="_blank"><span class="fb"> </span></a></li>
+              target="_blank" rel="noopener noreferrer"><span class="fb"> </span></a></li>
             <li><a
               href="https://twitter.com/intent/tweet?text=http://www.peredaagro.com.ar/"
-              target="_blank"><span class="twit"> </span></a></li>
+              target="_blank" rel="noopener noreferrer"><span class="twit"> </span></a></li>
             <!--  <li><a href="#"><span class="in"> </span></a></li>
             <li><a href="#"><span class="yt"> </span></a></li> -->
           </ul>
@@ -194,11 +194,11 @@
             </p>
             <p>
               <spring:message code="nav.credits.created-by" /> <a href="https://www.linkedin.com/in/epere4"
-                target="_blank">Edu</a> &amp; <a
+                target="_blank" rel="noopener noreferrer">Edu</a> &amp; <a
                 href="https://www.linkedin.com/in/liliananuno"
-                target="_blank">Lili</a> - <spring:message code="nav.credits.design" /> <a
+                target="_blank" rel="noopener noreferrer">Lili</a> - <spring:message code="nav.credits.design" /> <a
                 href="https://p.w3layouts.com/demos/former/web/index.html"
-                target="_blank">w3layouts</a>.
+                target="_blank" rel="noopener noreferrer">w3layouts</a>.
             </p>
           </div>
         </div>
