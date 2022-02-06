@@ -17,8 +17,9 @@
       <div class="choose-bottom">
         <c:forEach items="${links}" var="linkName" varStatus="loop">
           <spring:message code="links.${linkName}.url" var="url" />
+          <spring:message code="links.${linkName}.protocol" var="protocol" />
           <div class="col-md-4 choose-left">
-            <a href="http://${url}" target="_blank" rel="noopener noreferrer"> <img
+            <a href="${protocol}://${url}" target="_blank" rel="noopener noreferrer"> <img
               src="../rsrc/logo-${linkName}.jpg" /></a>
             <%--          <h4>
             <spring:message code="links.${linkName}.title" />
@@ -27,7 +28,7 @@
               <spring:message code="links.${linkName}.description" />
             </p>
             <p>
-              <a href="http://${url}" target="_blank" rel="noopener noreferrer">${url}</a>
+              <a href="${protocol}://${url}" target="_blank" rel="noopener noreferrer">${url}</a>
             </p>
           </div>
           <c:if test="${loop.index%3==2 }">

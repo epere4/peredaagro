@@ -82,7 +82,7 @@ public class MainController {
     public ModelAndView getLinksPage() {
         Map<String, Object> model = new HashMap<String, Object>();
         model.put("links", Arrays.asList("anuga", "sialparis", "gulfood",
-                "gpc", "asagir", "aacrea", "ipcva", "maizar", "minagri",
+                "asagir", "aacrea", "ipcva", "maizar", "minagri",
                 "sunflowernsa", "usda"));
         return new ModelAndView("links", model);
     }
