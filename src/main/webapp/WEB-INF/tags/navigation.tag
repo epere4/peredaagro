@@ -117,7 +117,7 @@
   <div class="contact">
     <div class="container">
       <div class="contact-main">
-        <div class="col-md-4 contact-left contact-left-footer">
+        <div class="col-md-3 contact-left contact-left-footer">
           <h4>
             <spring:message code="contact.contactUs" />
           </h4>
@@ -127,22 +127,51 @@
               href="mailto:info@peredaagro.com.ar">info@peredaagro.com.ar</a>
           </p>
         </div>
-        <div class="col-md-4 contact-left contact-left-footer">
+        <div class="col-md-6 contact-left contact-left-footer">
           <h4>
             <spring:message code="contact.address.title" />
           </h4>
-          <p class="nowrap">Pereda Agro S.A.</p>
-          <p class="nowrap">
-            <spring:message code="contact.address.line1" />
-          </p>
-          <p class="nowrap">
-            <spring:message code="contact.address.line2" />
-          </p>
-          <p class="nowrap">
-            <spring:message code="contact.address.line3" />
-          </p>
+          <div class="col-md-6">
+            <p class="nowrap">
+              <strong><spring:message code="contact.address.city" /></strong>
+              <a href="https://goo.gl/maps/57fTWmRA5ewD56ZN9" target="_blank" rel="noopener noreferrer">
+                <img alt="Google Maps Icon" src="/res/img/gmapsIcon.ico" />
+              </a>
+            </p>
+            <p class="nowrap">Pereda Agro S.A.</p>
+            <p class="nowrap">
+              <spring:message code="contact.address.line1" />
+            </p>
+            <p class="nowrap">
+              <spring:message code="contact.address.line2" />
+            </p>
+            <p class="nowrap">
+              <spring:message code="contact.address.line3" />
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="nowrap">
+              <strong><spring:message code="contact.address.tl.city" /></strong>
+              <a href="https://goo.gl/maps/oRk7KY9c9cfWJiVM8" target="_blank" rel="noopener noreferrer">
+                <img alt="Google Maps Icon" src="/res/img/gmapsIcon.ico" />
+              </a>
+            </p>
+            <p class="nowrap">Pereda Agro S.A.</p>
+            <p class="nowrap">
+              <spring:message code="contact.address.tl.line1" />
+            </p>
+            <p class="nowrap">
+              <spring:message code="contact.address.tl.line2" />
+            </p>
+            <p class="nowrap">
+              <spring:message code="contact.address.tl.line3" />
+            </p>
+            <p class="nowrap">
+              <spring:message code="contact.address.tl.line4" />
+            </p>
+          </div>
         </div>
-        <div class="col-md-4 contact-left contact-left-footer">
+        <div class="col-md-3 contact-left contact-left-footer">
           <h4>
             <spring:message code="nav.shareOn" />
           </h4>
