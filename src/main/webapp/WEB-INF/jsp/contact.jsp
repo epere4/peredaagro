@@ -37,7 +37,7 @@
               <p class="nowrap">
                 <strong><spring:message code="contact.address.city" /></strong>
                 <a href="https://goo.gl/maps/57fTWmRA5ewD56ZN9" target="_blank" rel="noopener noreferrer">
-                  <img alt="Google Maps Icon" src="/res/img/gMapsIcon.ico" />
+                  <img alt="Google Maps Icon" src="/res/img/gmapsIcon.ico" />
                 </a>
               </p>
               <p class="nowrap">Pereda Agro S.A.</p>
@@ -55,7 +55,7 @@
               <p class="nowrap">
                 <strong><spring:message code="contact.address.tl.city" /></strong>
                 <a href="https://goo.gl/maps/oRk7KY9c9cfWJiVM8" target="_blank" rel="noopener noreferrer">
-                  <img alt="Google Maps Icon" src="/res/img/gMapsIcon.ico" />
+                  <img alt="Google Maps Icon" src="/res/img/gmapsIcon.ico" />
                 </a>
               </p>
               <p class="nowrap">Pereda Agro S.A.</p>
