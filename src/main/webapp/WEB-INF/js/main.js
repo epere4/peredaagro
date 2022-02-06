@@ -50,8 +50,17 @@ var getPosts = function(res) {
       post.date = new Date(val.timestamp * 1000);
       console.log("post.title ", post.title);
       posts.push(post);
+    } else if (val.type === 'photo') {
+      var post = {};
+      post.title = val.summary;
+      post.body = val.photos.map(function (photo) {
+        return '<img src="' + photo.original_size.url + '" width="455" class="img-responsive"/>';
+      }).join('\n');
+      post.date = new Date(val.timestamp * 1000);
+      console.log("post.title ", post.title);
+      posts.push(post);
     } else {
-      console.error("Received a non text post. Ignoring it: ", val);
+      console.error("Received an unsupported post type. Ignoring it: ", val);
     }
   });
 
@@ -104,7 +113,6 @@ $.ajax({
   dataType : 'jsonp',
   data : {
     api_key : "DCRZV2wIPvJQrdJV753xVyfm8oDoCDamEnyED7XunPbL6oIJk3",
-    type : "text",
     limit : 2,
   },
   success : function(response) {
