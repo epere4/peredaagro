@@ -180,7 +180,7 @@
               href="http://www.facebook.com/sharer.php?u=http://www.peredaagro.com.ar/"
               target="_blank"><span class="fb"> </span></a></li>
             <li><a
-              href="http://twitter.com/home?status=http://www.peredaagro.com.ar/"
+              href="https://twitter.com/intent/tweet?text=http://www.peredaagro.com.ar/"
               target="_blank"><span class="twit"> </span></a></li>
             <!--  <li><a href="#"><span class="in"> </span></a></li>
             <li><a href="#"><span class="yt"> </span></a></li> -->
